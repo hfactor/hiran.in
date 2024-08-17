@@ -1,0 +1,102 @@
+/* Import Fonts : Manjari, Overpass Mono & Public Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&family=Overpass+Mono:wght@300..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", "Manjari", sans-serif;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+:root {
+/* Flexoki Colors */
+  --flexoki-light-bg: rgb(255, 252, 240);
+  --flexoki-light-bg2: rgb(242, 240, 229);
+  --flexoki-light-ui: rgb(230, 228, 217);
+  --flexoki-light-ui2: rgb(218, 216, 206);
+  --flexoki-light-ui3: rgb(206, 205, 195);
+  --flexoki-light-tx3: rgb(183, 181, 172);
+  --flexoki-base-850: #343331;
+  --flexoki-base-600: #6f6e69;
+
+/* Colors */
+  --color-brand: rgb(58, 169, 159);
+  --color-bg: var(--flexoki-light-bg);
+  --color-text: var(--flexoki-base-600);
+  --color-title: var(--flexoki-base-850);
+  --color-border: var(--flexoki-light-bg2);
+
+/* Fonts */
+  --text-default: "Public Sans", "Manjari", sans-serif;
+  --text-mono: "Overpass Mono", monospace;
+
+/* Font Weight */
+  --weight-regular: 300;
+  --weight-bold: 500;
+
+/* Font Size */
+  --font-regular: 1rem;
+  --font-small: 0.8325rem;
+
+/* Space */
+  --space-unit: 8px;
+  --space-half: calc(0.5 * var(--space-unit)); /* 4px */
+  --space-one : calc(1 * var(--space-unit)); /* 8px */
+  --space-two: calc(2 * var(--space-unit)); /* 16px */
+  --space-three: calc(3 * var(--space-unit)); /* 24px */
+  --space-four: calc(4 * var(--space-unit)); /* 32px */
+  --space-five: calc(5 * var(--space-unit)); /* 40px */
+  --line-height-normal: 1.5;
+  
+/*Added by Hiran */
+
+.tooltip {
+  display: inline;
+  position: relative;
+  text-align: left;
+}
+
+.tooltip bottom {
+  display: none;
+}
+
+.tooltip .right {
+  min-width: 30vw;
+  top: 50%;
+  left: 100%;
+  margin-left: var(--space-three);
+  transform: translate(0, -50%);
+  padding: var(--space-two);
+  background-color: var(--color-border);
+  font-size: 1rem;
+  position: absolute;
+  z-index: 99999999;
+  display: none;
+  line-height: var(--line-height-normal);
+}
+
+.tooltip:hover .right {
+  display: block;
+}
+
+
+.right .tooltip-title {
+  font-size: var(--font-small);
+  font-weight: var(--weight-bold);
+  display: inline-block;
+}
+
+.right .tooltip-excerpt {
+  font-size: var(--font-small);
+  display: inline-block;
+  padding-top: var(--space-one);
+}
+
+ul, ol {
+  padding-bottom: var(--space-two);
+}
+
+.logo-container:hover svg path {
+  stroke: var(--color-brand);
+}

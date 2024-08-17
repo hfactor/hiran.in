@@ -1,0 +1,187 @@
+---
+---
+<!-------------------------------------------------------------------------------------
+*
+* MIT License
+* Copyright (c) 2020 Raghuveer S, Hiran Venugopalan, Asim K T
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in all
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+------------------------------------------------------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Hiran Venugopalan" property="og:site_name" />
+    <meta
+        content="Product and Type Designer | UI UX | Design Mentoring"
+        property="og:description">
+    <meta content="{{ site.url }}/about/" property="article:author">
+    <meta property="og:image" content="/assets/img/HirOG.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    {%- if page.title -%}
+    <meta content="{{ page.title }}" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {%- else -%}
+    <meta content="website" property="og:type">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {%- endif -%}
+
+    <title>{{page.title}} - {{site.heading}}</title>
+    <script defer src="https://app.tinyanalytics.io/pixel/om5CkwWaIXWqxiGf"></script>
+    <link rel="canonical" href="{{site.url}}{{page.url}}" />
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/profile.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" sizes="16x16" />
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" media="all" class="default" />
+    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" media="all" class="default" />
+    <link href="{{ site.baseurl }}/assets/css/Util.css" rel="stylesheet" media="all" class="default" />
+    <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
+
+    <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "i7wqmgx2ep");
+    </script>
+</head>
+
+<body>
+    <main>
+        <div class="columns is-centered">
+            <div class="column is-5-widescreen is-6-desktop is-8-tablet is-12-mobile">
+                <!-- Navigation-->
+                {%- include header.html -%}
+                {%- if page.permalink == "/" -%}
+                    <!-- 1. Homepage. You can have a static homepage at _config.yml. Configure at homepage.html inside _includes -->                
+                    {%- if site.preferences.homepage.enabled -%}
+                        {%- include homepage.html -%}
+                    {%- else -%}
+                        {%- include feed.html -%}
+                    {%- endif -%}
+                {%- elsif page.permalink == "/notes" -%}
+                    <!-- 2. If you have a static homepage, you can use this to configure feed page -->                
+                    {%- include feed.html -%}
+                {%- elsif page.content-type == "notes" or page.content-type == "post" -%}
+                    <!-- 
+                        There are two collections, the default blog post named "Post" and "notes" for notes.
+                        I didn't create a seprate collection based on layout, to make it easier for Obsidian
+                        You can do that by duplicating this page, and breaking this if condition to layouts
+
+                        Defined layouts are : 
+                        1. List Page - Page with title+description, and content, which is mostly a list. No backlinks
+                        2. Post Page - Page with date, title and content 
+                        3. Note Page - Page with title, content and backlinks
+                        4. Log Page - Page with title, meta and content and backlink
+                        5. Static - Simple page, with title and content
+                    -->
+                    {%- if page.format == "list" -%}
+                        <!-- Layout 1 List Page-->
+                        <style>
+                            li {
+                                border-bottom: 1px solid var(--color-border-light);
+                                list-style: none;
+                                padding: var(--padding-thin) 0;
+                                font-size: var(--font-small);
+                            }
+                            .content ul {
+                                padding-left: 0px;
+                                padding-bottom: var(--padding-normal);
+                            }
+                            h3 {
+                                padding: 1rem 0rem;
+                            }
+                        </style>
+                        <div class="title-container">
+                            <div class="title-left">
+                                <div>{{ page.title }}</div>
+                            </div>
+                            <div class="title-right">
+                                <p>{{ page.description }}</p>
+                            </div>
+                        </div>
+                        {%- include content.html -%}
+                    {% if page.date %}
+    
+    {% endif %}
+                    {%- else -%}
+                        <!-- Global Back arrow -->                
+                        <div class="note-page-section">
+                          
+                            {%- if page.content-type == "post" -%}
+                                <!-- Layout 2 Post-->
+                                
+                                <h5 class="back-arrow" style="padding-bottom: 0px">{{ page.date | date_to_long_string }}</h5>
+                                <h1 style="padding-top: 0px">
+                                    {{ page.title }}
+                                    </h1>
+                            {%- include content.html -%}
+                            {%- endif -%}
+
+                            {%- if page.category == "notes" -%}
+                                <style>
+                                li::marker {
+                                    content: '• ';
+                                }
+                            </style>
+                            <!-- ഊള പരിപാടിയാണേലും ഇമ്മാതിരി എഴുതാനേ എന്നെ കൊണ്ടൊക്കൂ!
+                            ലോജിക്ക് വിസ്തരിക്കുന്നില്ല, എനിക്ക് തന്നെ നാണമാവുന്നു! -->
+                                <!-- Layout 3 Note-->
+                                <h1>{{ page.title }}</h1>
+                                {%- include content.html -%}
+                                {%- include backlinks.html -%}
+                            {%- endif -%}
+
+                            {%- if page.format == "log" -%}
+                            <!-- Layout 4 Logs-->                
+                                <h1 style="padding-bottom: 0px">
+                                {{ page.title }}
+                                </h1>
+                                <div class="meta-values" style="padding-bottom: var(--padding-broad);">
+                                    {% for item in page.meta %}
+                                        {{ item | last }}
+                                        {% if forloop.last %}{% else %} • {% endif %}
+                                    {% endfor %}
+                                    • <a href = "{{ page.link }}"> Link </a>
+                                </div>
+                                {%- include content.html -%}       
+                            {%- endif -%}
+                    {%- endif -%}
+                {%- endif -%}
+                    {%- if page.content-type == "static" -%}
+                        <!-- Layout 5 Static-->
+                        <h1>{{ page.title }}</h1>
+                        {%- include content.html -%}
+                    {%- endif -%}
+                    {%- include footer.html -%}
+            </div>
+        </div>
+    </main>
+</body>
+</html>

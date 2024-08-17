@@ -1,0 +1,34 @@
+<!-- intro section -->
+<div class="slot-large">
+  <h3>Hiran Venugopalan</h3> 
+  <p>A tinkerer who loves building <i>things</i>, a fan of minimalism, and someone who enjoys reading, 
+  traveling, brewing coffee, and watching movies. As a product designer, I currently lead design at Kaleyra.</p>
+</div>
+
+<!--links-->
+<div class="slot-large">
+  <h3>Digital Garden</h3> 
+  <p>This website is my digital garden, a half-blog-half-wiki! Here, you'll find my ever-changing 
+  {%- include moc-list.html -%}</p>
+</div>
+       
+<!-- now page -->
+<div class="slot-large">
+  <h3>Now</h3> 
+  {% assign now_page = site.pages | where: "name", "now.md" | first %}
+  {{ now_page.content | markdownify }}
+</div>
+
+<!-- subscribe bar -->
+<div class="slot-large" style="padding-top: 8px;">
+  <div class="subscribe-bar">
+    Now and then, I send bite-sized notes about
+    <a href="https://hiran.substack.com/">This&That</a> to your inbox          
+  </div>    
+</div>
+
+  <!-- contact section -->
+<div class="slot-large">
+  <h3>Contact</h3> 
+  <p>I offer coaching on design thinking and problem solving. If you need a design collaborator for small, 
+  fun projects, feel free to <a href="mailto:hiran@hiran.in">contact me</a>.</p>
