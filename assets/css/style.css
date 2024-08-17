@@ -93,12 +93,12 @@ i {
 }
 
 
-.sub-txt p {
+.sub-text p {
   font-size: var(--fluid-xs);
   font-weight: var(--weight-regular);
   color: var(--color-text);
   line-height: var(--line-height-normal);
-  margin-bottom: var(--space-one);
+  margin-bottom: var(--space-three);
 }
 
 .brand-txt {
@@ -436,7 +436,7 @@ img {
   justify-content: center;
 }
 
-.card-sub-txt p {
+.card-sub-text p {
   font-weight: var(--weight-regular);
   color: var(--color-title);
 }
@@ -624,7 +624,7 @@ img {
   border-radius: 50%;
 }
 
-.profile-sub-txt {
+.profile-sub-text {
   font-size: var(--fluid-xs);
   color: var(--color-title);
 }
