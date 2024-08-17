@@ -1,5 +1,5 @@
 ---
-title: Topics
+title: All Topics
 layout: Static
 cat-value: Topics
 permalink: /Topics
@@ -25,18 +25,3 @@ permalink: /Topics
     {% endif %}
   {% endfor %}
   </div>
-
-<div class="slot-large">
-<h2>Latest Notes</h2>
-<div class="note-list-sec">
-    <ul class="note-list"> 
-      {% assign non_moc_notes = site.notes | where_exp: "note", "note.category != 'MOC'" %}
-      {% assign sorted_notes = non_moc_notes | sort: 'date' | reverse %}
-      {% assign latest_notes = sorted_notes | slice: 0, 30 %}
-      {% for note in latest_notes %}
-          <li>
-              <a href="{{ note.url }}">{{ note.title }}</a>
-          </li>
-      {% endfor %}
-    </ul>
-    </div> </div>

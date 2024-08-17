@@ -325,6 +325,7 @@ i {
   padding: var(--space-one) 0px;
   list-style: none;
   gap: var(--space-one);
+  justify-content: space-between;
 }
 
 .note-list > li:nth-child(1) {
