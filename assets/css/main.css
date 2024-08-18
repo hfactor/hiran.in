@@ -100,3 +100,14 @@ ul, ol {
 .logo-container:hover svg path {
   stroke: var(--color-brand);
 }
+
+/* External link: detects if href starts with http:// or https:// */
+a[href^="http://"]:after,
+a[href^="https://"]:after {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19L19 5M5 5h14v14"/></svg>');
+  background-size: contain;
+}
