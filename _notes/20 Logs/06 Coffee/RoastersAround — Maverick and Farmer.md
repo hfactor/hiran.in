@@ -3,7 +3,7 @@ title: RoastersAround — Maverick and Farmer
 date: 2024-06-27
 meta-url: https://www.maverickandfarmer.com/
 category: Coffee
-meta-lang: Bangalore, India
+meta-lang: 
 meta-publisher: Store
 ---
 Maverick and Farmer is a roaster (and cafe) from Bangalore. 

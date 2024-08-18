@@ -3,7 +3,7 @@ title: RoastersAround —  Black Baza Coffee
 date: 2024-06-27
 meta-url: https://blackbazacoffee.com/
 category: Coffee
-meta-lang: Bangalore, India
+meta-lang: 
 meta-publisher: Store
 ---
 Black Baza Coffee is a small-batch roasting team from Bangalore. They focus on sustainability, and comes a bio-degradable packaging. 

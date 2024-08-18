@@ -3,7 +3,7 @@ title: RoastersAround — Koffee Genetics
 date: 2024-06-30
 meta-url: https://genetics.coffee/
 category: Coffee
-meta-lang: Bangalore, India
+meta-lang: 
 meta-publisher: Store
 ---
 I’m still unsure whether it’s Genetics Coffee or Koffee Genetics, as both names are used. Regardless, they excel in what they do and are among the finest roasters.

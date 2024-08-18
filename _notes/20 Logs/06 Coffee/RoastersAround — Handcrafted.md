@@ -3,7 +3,7 @@ title: RoastersAround — Handcrafted
 date: 2024-07-02
 meta-url: https://www.cafehandcrafted.com/shop
 category: Coffee
-meta-lang: Bhopal, India
+meta-lang: 
 meta-publisher: Store
 ---
 I had an opportunity to taste Coffee from Handcrafted cafe, Bhopal and I loved what they are serving. I recently started buying beans from them, and the delivery and quality of what they delivered was good. 

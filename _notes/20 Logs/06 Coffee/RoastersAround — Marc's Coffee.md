@@ -3,7 +3,7 @@ title: RoastersAround — Marc's Coffee
 date: 2024-06-27
 meta-url: https://www.marcscoffees.com/shop/
 category: Coffee
-meta-lang: Auroville, India
+meta-lang: 
 meta-publisher: Store
 ---
 Marc's operates from Auroville, and they are into training as well. They have amazing coffees, tho a bit different from rest - especially in roasting. An opinionated coffee brand, I would say!
