@@ -48,31 +48,26 @@
         {{ group_content }}
             {% if note_content != "" %}
                 <li> <div class="note-title"> 
-                <a href="{{ site.baseurl }}{{ note.url }}"> 
+                <a href="{{ site.baseurl }}{{ note.url }}">
                     {% if note.local-title %} {{ note.local-title }} {% else %} {{ note.title }} {% endif %}                    
                     {% if note.recommended == true %} ✦{% endif %}
                     {% if note.revisit == true %} ❷{% endif %}
-                    </div>
-                    <span class="arrow-icon"><img src="/assets/svg/Arrow.svg" alt="" class="arrow-img" /></span>
-                </a></li>
+                    
+                </a></div></li>
             {% elsif meta_url != "" %}
                 <li> <div class="note-title">
                 <a href="{{ meta_url }}"> 
                     {% if note.local-title %} {{ note.local-title }}{% else %} {{ note.title }} {% endif %}
                     {% if note.recommended == true %} ✦{% endif %}
                     {% if note.revisit == true %} ❷{% endif %}
-                    </div>
-                    <span class="arrow-icon"> <img src="/assets/svg/Arrow.svg" alt="" class="arrow-img" /> </span>
-                </a>
-                </li>
+                </a></div></li>
             {% else %}
                 <li> <div class="note-title">
                     {% if note.local-title %} {{ note.local-title }} {% else %} {{ note.title }} {% endif %}
                     {% if note.recommended == true %} ✦{% endif %}
                     {% if note.revisit == true %} ❷{% endif %}
                     {% if note.booktype %} {{ note.booktype }} {% endif %}
-                    </div>
-                </li>
+                </div></li>
             {% endif %}
         {% endcapture %}
     {% endif %}
