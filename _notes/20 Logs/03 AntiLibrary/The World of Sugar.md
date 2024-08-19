@@ -11,5 +11,5 @@ meta-publisher:
 recommended: 
 revisit: 
 local-title: 
-booktype:
+booktype: 📟
 ---
