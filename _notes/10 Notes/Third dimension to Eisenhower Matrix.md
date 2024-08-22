@@ -1,7 +1,7 @@
 ---
 title: Third dimension to Eisenhower Matrix
 date: 2024-06-14
-category: WorkingNotes
+category: Notes
 ---
 
 Eisenhower Matrix suggests dropping things that are not important or urgent, *but what if you want to do it?* (call a random friend and check how he/she is) 

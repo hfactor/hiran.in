@@ -1,7 +1,7 @@
 ---
 title: Good meeting checklist
 date: 2024-06-17
-category: WorkingNotes
+category: Notes
 ---
 
 1. [[Meetings are not the place to surprise people]]

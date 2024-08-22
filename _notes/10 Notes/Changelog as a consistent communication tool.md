@@ -1,7 +1,7 @@
 ---
 title: Changelog as a consistent communication tool
 date: 2024-06-17
-category: WorkingNotes
+category: Notes
 ---
 
 Changelogs are a great way of effective communication. It provides a clear idea on what is done, and why it's done. Also, it communicates to the user about the value the new feature adds / problem the new feature solves. 

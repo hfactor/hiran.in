@@ -1,7 +1,7 @@
 ---
 title: Documenting Meetings
 date: 2024-06-17
-category: WorkingNotes
+category: Notes
 ---
 ### Basic Principles
 

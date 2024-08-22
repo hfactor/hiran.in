@@ -1,7 +1,7 @@
 ---
 title: Evergreen Notes
 date: 2024-06-02
-category: WorkingNotes
+category: Notes
 ---
 Evergreen notes are Andy Matuschak's take on [[Zettelkasten]]. This is more modern, digital-first way of note taking that focuses on 'accumulating knowledge over time' than building connections, or creating outputs.
 

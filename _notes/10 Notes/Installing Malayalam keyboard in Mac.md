@@ -1,7 +1,7 @@
 ---
 title: Installing Malayalam keyboard in Mac
 date: 2024-03-17
-category: WorkingNotes
+category: Notes
 ---
 I use [Key Magic](https://keymagic.net/downloads/) with Mozhi Mapping to type phonetic Malayalam.Some times Mac might not allow you to install Keymagic from orginal source, in that case try download from [Mac Download](https://macdownload.informer.com/keymagic/) and install it.
 
