@@ -2,7 +2,7 @@
 title: All Topics
 layout: Static
 cat-value: Topics
-permalink: /Topics
+permalink: /topics
 ---
 <div class="slot-medium">
 {% assign sorted_notes = site.notes | sort: 'category-order' %}
