@@ -7,7 +7,7 @@ category: Series
 meta-lang: Malayalam
 meta-year: 2024
 meta-people: Richie Mehta, Gopan Chidambaran
-meta-publisher: Amazon Prime Video
+meta-publisher: Amazon Prime
 recommended: no
 revisit: no
 ---

@@ -7,7 +7,7 @@ category: Library
 meta-lang: Malayalam
 meta-year: "2022"
 meta-people: സുഷ്മേഷ് ചന്ദ്രോത്ത്
-meta-publisher: Mathrubhumi
+meta-publisher: Mathrubhumi Books
 recommended: no
 revisit: no
 local-title: മറൈൻ കാന്റീൻ
