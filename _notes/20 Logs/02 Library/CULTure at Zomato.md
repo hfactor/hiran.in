@@ -1,6 +1,6 @@
 ---
 title: CULTure at Zomato
-date: 2024-08-17
+date: 2023-11-17
 meta-url: https://amzn.to/4d0kwcb
 cover: https://a.media-amazon.com/images/I/61I1j3Z+KXL._SY342_.jpg
 category: Library

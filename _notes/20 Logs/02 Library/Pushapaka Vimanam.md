@@ -1,6 +1,6 @@
 ---
 title: Pushapaka Vimanam
-date: 2024-06-02
+date: 2024-06-21
 meta-url: https://dcbookstore.com/books/pushpakavimanam
 cover: https://dcbookstore.com/uploads/product/images/10411028113788-pushpaka.jpg
 category: Library
