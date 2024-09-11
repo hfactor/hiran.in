@@ -21,6 +21,7 @@ title: Things of Choice
 
 # Coffee
 - [Filter Coffee Maker](https://amzn.to/3Z3Kg48) (2019)
+- [Bialetti Moka Express](https://amzn.to/3Mriyqw) (2021)
 - [AreoPress Go](https://amzn.to/3X2zwk5) (2021)
 - [Ceramic Pourover Set](https://store.blackbazacoffee.com/products/ceramic-pour-over) (2024)
 
@@ -36,6 +37,7 @@ title: Things of Choice
 - [Obsidian](https://obsidian.md/) for Knowledge Management
 - [FigJam](https://www.figma.com/figjam/) for Ideation (if not in paper)
 - [VSCode](https://code.visualstudio.com/) for Coding
+- [Simple Note](https://simplenote.com/) for multi-device jotting
 - [Github](https://github.com/) for Code Management
 - [Dropbox](https://www.dropbox.com) for device sync
 - [pCloud](https://www.pcloud.com/) for device sync
