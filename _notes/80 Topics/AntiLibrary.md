@@ -1,7 +1,7 @@
 ---
 category: MOC
 title: AntiLibrary
-description: An <a href="https://fs.blog/the-antilibrary/">antilibrary </a> usually includes unread books we own. For me, it's a list of books I aspire to own and read. Also, explore my <a href="/library">Reading list.</a>
+description: My curated collection of unread books that I am aware about/owns. A sneak peak to unexplored knowledge and stories. Emoji indicates material type. Explore my <a href="/library">Reading list.</a>
 permalink: /antilibrary
 cat-value: AntiLibrary
 category-order: 3
