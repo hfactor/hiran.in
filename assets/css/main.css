@@ -111,3 +111,22 @@ a[href^="https://"]:after {
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19L19 5M5 5h14v14"/></svg>');
   background-size: contain;
 }
+
+@media (max-width: 520px) {
+  .nav{
+    padding: var(--space-three) 0px;
+  }
+  .two-column-grid-layout {
+    grid-template-columns: 1fr;
+  }
+  .book-card-left {
+    width: 100%;
+  }
+  
+  .slot-small {
+    padding: var(--space-half) 0;
+}
+  .padded-container{
+    padding: var(--space-two) 0px;
+  }
+}
