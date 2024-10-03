@@ -1,6 +1,6 @@
 ---
 title: A Day in the Life of Abed Salama - A Palestine Story
-date: 2024-08-17
+date: 2024-10-04
 meta-url: 
 cover: 
 category: Library
