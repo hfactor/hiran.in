@@ -3,9 +3,7 @@ title: Bullet Journaling
 date: 2024-06-02
 category: Notes
 ---
-
 Ryder Carroll created a method of organising personal information such as tasks, reminders, to-do lists, notes in a single notebook called Bullet Journal.  It was primarily created for analog notebooks, while there are digital bullet journal users too.
-
 ### Concepts 
 - Any notebook can be turned into a bullet journal. You can build layouts and improve over time. 
 - You can keep it decorative or minimal. **I keep it rough.**

@@ -15,7 +15,7 @@
 /* centered container style */
 
 .centered-container {
-  max-width: 720px;
+  max-width: 640px;
   width: 100%;
   height: 100%;
   background-color: transparent;
@@ -706,6 +706,10 @@ img {
   .padded-container{
     padding: var(--space-two) 0px;
   }
+}
+
+::marker {
+  margin-right: 2px;
 }
 
 /*--- for mobile ---*/
