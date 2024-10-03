@@ -1,15 +1,15 @@
 ---
-title: Dalit Kitchens of Marathwada
+title: Chikkamma Tours Pvt Ltd
 date: 2024-08-17
 meta-url: 
 cover: 
 category: AntiLibrary
-meta-lang: English
+meta-lang: 
 meta-year: 
-meta-people: Shahu Patole
+meta-people: Unmana
 meta-publisher: 
 recommended: 
 revisit: 
 local-title: 
-booktype: 📖
+booktype:
 ---

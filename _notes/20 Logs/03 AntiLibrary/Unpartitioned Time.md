@@ -1,15 +1,15 @@
 ---
-title: Dalit Kitchens of Marathwada
+title: Unpartitioned Time
 date: 2024-08-17
 meta-url: 
 cover: 
 category: AntiLibrary
-meta-lang: English
+meta-lang: 
 meta-year: 
-meta-people: Shahu Patole
+meta-people: Malavika Rajkotia
 meta-publisher: 
 recommended: 
 revisit: 
 local-title: 
-booktype: 📖
+booktype:
 ---

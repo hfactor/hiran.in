@@ -1,13 +1,13 @@
 ---
-title: Dalit Kitchens of Marathwada
+title: The Hachette Book of Indian Detective Fiction
 date: 2024-08-17
 meta-url: 
 cover: 
 category: AntiLibrary
-meta-lang: English
+meta-lang: 
 meta-year: 
-meta-people: Shahu Patole
-meta-publisher: 
+meta-people: 
+meta-publisher: Hachette India
 recommended: 
 revisit: 
 local-title: 
