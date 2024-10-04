@@ -8,7 +8,9 @@ Instead of building wireframes using tools like Balsamiq, this method suggests t
 
 *Eg: Adding a `>` symbol next to an existing table, and marking `search` on the left and `filter` on the right side of the table, between Table and Title is clearer than a 100-word document.* 
 
-Checkout [Fatmarker for Figma](https://www.figma.com/community/file/1319266134930460405)
+- [[Save Screenshots]]
+- Checkout [Fatmarker for Figma](https://www.figma.com/community/file/1319266134930460405)
+
 
 --- 
 ### Source
