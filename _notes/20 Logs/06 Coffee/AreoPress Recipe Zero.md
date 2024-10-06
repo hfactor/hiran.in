@@ -12,6 +12,7 @@ This recipe is designed for the AeroPress Go, perfect for travel without a therm
 - Boil water, but not to 100°C.
 - Rinse the plunger, chamber, and filter cap (with 2 paper filters) using hot water. Rinsing maintains temperature and enhances taste. I usually rinse the plunger and chamber first, and then paper and filter cap with same water. 
 - Set up AeroPress in inverted position, aligning plunger to the 'registered' mark.
+
 ## Brewing
 - Add one level AeroPress spoon of coffee grounds.
 - Pour a small amount of water to wet grounds and bloom.
