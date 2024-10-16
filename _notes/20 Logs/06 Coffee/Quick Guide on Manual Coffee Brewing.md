@@ -8,7 +8,7 @@ meta-publisher:
 ---
 
 
-Written for friends who want to start brewing coffee at home. Very personal opinions and comments.
+*Written for friends who want to start brewing coffee at home. Very personal opinions and comments.*
 
 The core idea of manual brew is to get more control on the outcome, hence it demands control in input. In all methods, you can see a few basic things like measuring the coffee beans/powder, controlling the water temperature, etc. A [basic kitchen scale](https://amzn.to/4gQm8bR) and a [kitchen-grade thermometer](https://amzn.to/47X6mYx) are good to have, but you can also choose high-end equipment.
 
@@ -31,7 +31,8 @@ Unlike the other two, pour over is more manual and provides the coffee maker con
 
 ### 4. AeroPress
 AeroPress provides more control in dripping, filtering, and also lets you control pressure while brewing (which makes coffee extract more [crema](https://youtube.com/watch?v=j5rygxblzju), making coffee espresso-like). The equipment is costlier than drip brewers, but it is handy and travel-friendly. As the number of variables is high, you can see a variety of methods to brew coffee. [AeroPress](https://amzn.to/3NiJrxa) and [AeroPress Go](https://amzn.to/3zBPFp3) are almost similar, while Go is a bit more compact by design and easier to travel with.
-- [https://www.youtube.com/watch?v=XGs5QVAU-00](AeroPress Recipe | James Hoffmann's Ultimate AeroPress Recipe)
+
+- [AeroPress Recipe - James Hoffmann's Ultimate AeroPress Recipe](https://www.youtube.com/watch?v=XGs5QVAU-00)
 - [Aeroprecipe](https://aeroprecipe.com/)
 - [Aeromatic App](https://aeromatic.app/recipes/aeropress)
 
