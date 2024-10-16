@@ -119,7 +119,7 @@ a[href^="https://"]:after {
   .two-column-grid-layout {
     grid-template-columns: 1fr;
   }
-  .book-card-left {
+  .cover-image {
     width: 100%;
   }
   

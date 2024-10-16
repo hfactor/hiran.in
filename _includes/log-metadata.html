@@ -14,31 +14,28 @@
     {% endif %}
 {% endfor %}
 
-<h1 class="slot-small"> 
-
-{% assign category_note = site.notes | where: "cat-value", page.category | first %}
-{% if page.local-title %} 
-<a href="{{ category_note.permalink }}">{{ page.category }}</a>/{{ page.local-title }}
-{% else %} 
-<a href="{{ category_note.permalink }}">{{ page.category }}</a>/{{ page.title }}
-{% endif %}
-{% if page.recommended == true %}✦{% endif %}
-{% if page.revisit == true %} ❷{% endif %}
+<div class="slot-small">
+<h1> 
+    {% assign category_note = site.notes | where: "cat-value", page.category | first %}
+    {% if page.local-title %} 
+    <a href="{{ category_note.permalink }}">{{ page.category }}</a>/{{ page.local-title }}
+    {% else %} 
+    <a href="{{ category_note.permalink }}">{{ page.category }}</a>/{{ page.title }}
+    {% endif %}
+    {% if page.recommended == true %}✦{% endif %}
+    {% if page.revisit == true %} ❷{% endif %}
 </h1>
+{% if front_matter_values != "" and front_matter_values != page.category %}
+    <h6>{{ front_matter_values }}</h6>
+{% endif %}
+</div>
 
 <div class="slot-small">
-    <div class="book-card">
-        {% if page.cover %}
-        <div class="book-card-left">
-          <img src="{{ page.cover }}" alt="Cover Image">  
-        </div>
+    {% if page.cover %}
+    <div class="cover-image">
+        <img src="{{ page.cover }}" alt="Cover Image">  
+    </div>
 {% endif %}
-      <div class="book-card-right">
-        {% if front_matter_values != "" and front_matter_values != page.category %}
-<h6>{{ front_matter_values }}</h6>
-        {% endif %}
-        <div class="sub-text">
-            {%- include content.html -%}
-        </div>
-      </div>
+    <div class="sub-text">
+        {%- include content.html -%}
     </div>
