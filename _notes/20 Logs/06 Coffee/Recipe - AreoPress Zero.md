@@ -1,13 +1,12 @@
 ---
-title: AreoPress Recipe Zero
+title: Recipe - AreoPress Zero
 date: 2024-08-17
 meta-url: 
 category: Coffee
 meta-lang: 
 meta-publisher:
 ---
-This recipe is designed for the AeroPress Go, perfect for travel without a thermometer or scale. It's optimised for medium roast, medium-fine ground coffee.
-
+This recipe is designed for the AeroPress Go, **perfect for travel without a thermometer or scale**. This is optimised for medium roast, medium-fine ground coffee.
 ## Preparation
 - Boil water, but not to 100°C.
 - Rinse the plunger, chamber, and filter cap (with 2 paper filters) using hot water. Rinsing maintains temperature and enhances taste. I usually rinse the plunger and chamber first, and then paper and filter cap with same water. 
@@ -20,4 +19,7 @@ This recipe is designed for the AeroPress Go, perfect for travel without a therm
 - Slowly fill the chamber with remaining water.
 - Carefully attach and lock the filter cap. Invert AeroPress onto your cup and press until you hear a hiss.
 - Clean your AeroPress while coffee settles for a minute.
-- Serve as is, or customise with hot water or ice.
+- Serve as is, or mix with hot water or ice.
+
+### Recommended Coffee
+- [[Coffee - Say Hello to Mellow from Maverick & Farmers]]

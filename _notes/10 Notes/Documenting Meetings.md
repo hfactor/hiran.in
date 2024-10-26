@@ -3,25 +3,24 @@ title: Documenting Meetings
 date: 2024-10-03
 category: Notes
 ---
-A good meeting note focuses on distillation of information. It should keep things concise without loosing important information. The purpose of meeting note is not to time track. (Use [Toggl](https://toggl.com/track/), or alternatives for that.)
+Meeting notes should focus on clear information. Keep them simple so you can remember details later. Every meeting involves people, and conversations usually fall into a few categories. I use these basic principles to quickly summarize meetings.
 
-Meeting notes, (if not generated from transcript) usually contains information of similar kind. Majority will be questions, answers, decisions and action to take-care. I use those phrases as hashtags in my notes. This makes it easier to read, track and  search. While next actions are captured, I don't go back and update the meeting notes. 
+I prefer using [Obsidian Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes) or [Logseq](https://logseq.com/)'s Daily page for daily notes, rather than creating a separate note for each meeting. I divide each meeting into headings and use tags to mark important points (e.g., Summary, Design, Question, Answer, and Decision). At work, I keep a to-do list within Logseq.
 
-I prefer using [Obsidian Periodic Notes ](https://github.com/liamcain/obsidian-periodic-notes) or Logseq's Daily page for dumping daily notes, instead of one-note-per-meeting. 
+If it's something to *hype* about later, I tag it to my [[Hype Doc]]. 
 
 ### File Example : 
 ```
 File : 10-Feb-2023.md
 
-- 11:00, Meeting on [[Project A]]
-	- #Info We are not building that feature in this sprint #PersonA
-	- #TODO Update the figma, remove the feature #Done
-	- #Question Are we updating the documentation?, to #PersonB
-	- #TIL, the date we shared with client is Q3, not Q2
-- 13:00, [[1:1 with Person A]]
-	- #TODO Prepare next year hiring count and budget
-	- #Question Ask #PersonC, if we are hiring remote or to WFO
-	- #Idea, add a survey along with [[Project A]]
+## 11:00 1:1 with [[Person A]]
+	- #SUMMARY Summary of the meeting goes here. Not Minutes.
+	- [[PROJECT1]] will have seperate touch notes, for easier search.
+	- #QUESTION Bigger questions that comes in meeting. 
+		- #ANSWER If someone answer. More answers are added.
+	- #DECISION Anything we all decide 
+	- TODO Tasks related to meeting
+
 ```
 
 - [[10 Notes/Design Decision Log]]

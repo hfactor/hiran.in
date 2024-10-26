@@ -404,6 +404,7 @@ img {
 .subscribe-bar {
   padding: var(--space-one) var(--space-two);
   background-color: var(--color-border);
+  line-height: 1.6rem;
 }
 /*=== product cards ===*/
 .card {
