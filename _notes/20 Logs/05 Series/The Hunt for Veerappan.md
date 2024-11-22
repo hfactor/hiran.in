@@ -3,7 +3,7 @@ title: The Hunt for Veerappan
 date: 2023-08-17
 meta-url: https://www.netflix.com/in/title/81111279
 cover: https://upload.wikimedia.org/wikipedia/en/a/a7/The_Hunt_for_Veerappan_poster.jpeg
-category: Series
+category: Movies
 meta-lang: English
 meta-year: 2023
 meta-people: Selvamani Selvaraj

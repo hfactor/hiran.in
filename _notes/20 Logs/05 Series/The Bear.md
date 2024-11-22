@@ -3,7 +3,7 @@ title: The Bear
 date: 2024-07-31
 meta-url: https://www.hotstar.com/in/shows/the-bear/1260108974?utm_source=gwa
 cover: https://upload.wikimedia.org/wikipedia/en/thumb/7/74/The_Bear_2022_FX.png/220px-The_Bear_2022_FX.png
-category: Series
+category: Movies
 meta-lang: English
 meta-year: 2024
 meta-people: Christopher Storer

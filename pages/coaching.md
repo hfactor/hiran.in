@@ -4,15 +4,10 @@ permalink: /coaching
 title: Coaching
 ---
 
-I offer coaching for individuals or teams looking to improve their design skills and knowledge. I provide 1:1 sessions like portfolio reviews and mock interviews on <a href="https://topmate.io/hiran">topmate</a>, and 30-minute design mentoring via <a href="https://adplist.org/mentors/hiran-venugopalan">ADPList</a>. If you're interested in other coaching models or have any questions, feel free to <a href="mailto:hi@hiran.in">email</a> me.
+I occasionally mentor founders, designers, and early-stage startups. Having built products from scratch and scaled design teams, I enjoy sharing insights about design foundations, processes, and team building—especially during the crucial 0-1 and 1-10 phases.
 
-## For Teams
-For Product or Design Teams, I conduct workshops and coaching sessions on design thinking, design tools, and design process. The duration, content, and format of the workshop will be customized as per the team's requirements.
+I provide design feedback for products, run focused workshops for teams, and offer career guidance through platforms like ADPList and Topmate. <s>For products requiring ongoing design direction, I offer monthly asynchronous feedback sessions at $300/month via Figma or email.</s>
 
-## For Founders
-As a Founder/CXO, you can benefit from my guidance on design principles, design thinking, and design team processes. My insights can help shape the success of your product.
-
-## For Products
-If you require expert feedback and validation for your projects or products, I provide unlimited asynchronous design feedback via Figma or email for a fixed monthly retainer of $300. Please note that I will not be creating designs for you, but rather providing insights to enhance your design.
-
-
+- <a href="https://topmate.io/hiran"> Book via topmate</a>
+- <a href="https://adplist.org/mentors/hiran-venugopalan"> Book via ADPList</a>
+- <a href="mailto:hiran.v@gmail.com">Drop an email</a>.

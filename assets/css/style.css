@@ -22,7 +22,7 @@
 }
 
 .slot-small {
-  padding: var(--space-two) 0px;
+  padding: var(--space-three) 0 var(--space-two) 0px
 }
 
 .slot-medium {
@@ -30,20 +30,21 @@
 }
 
 .slot-large {
-  padding: var(--space-five) 0px;
+  padding: var(--space-four) 0px;
 }
 
 /*==== common style ====*/
 
 a{
-  text-decoration: underline;
-  color: var(--color-text);
+  color: var(--flexoki-base-600);
+  text-decoration: none;
+  transition: background-color .3s;
+  border-bottom: 1px dotted currentColor;
 }
 
-a:hover { 
-  color: var(--color-brand);
+a:hover {
+  background-color: var(--flexoki-light-bg2);
 }
-
 sup{
   font-size: var(--font-small);
 }

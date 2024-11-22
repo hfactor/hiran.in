@@ -3,7 +3,7 @@ title: Decoupled
 date: 2021-12-25
 meta-url: https://netflix.com/in/title/81181080
 cover: 
-category: Series
+category: Movies
 meta-lang: English
 meta-year: 2021
 meta-people: Manu Joseph, Hardik Mehta

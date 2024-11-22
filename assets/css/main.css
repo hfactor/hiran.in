@@ -102,14 +102,25 @@ ul, ol {
 }
 
 /* External link: detects if href starts with http:// or https:// */
-a[href^="http://"]:after,
-a[href^="https://"]:after {
-  content: '';
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19L19 5M5 5h14v14"/></svg>');
-  background-size: contain;
+/* External link icon for regular links only */
+p a[href^="http://"]:after,
+p a[href^="https://"]:after,
+li a[href^="http://"]:after,
+li a[href^="https://"]:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19L19 5M5 5h14v14"/></svg>');
+    background-size: contain;
+}
+
+/* Explicitly remove icon from buttons and headings */
+.btn[href^="http://"]:after,
+.btn[href^="https://"]:after,
+h3 a[href^="http://"]:after,
+h3 a[href^="https://"]:after {
+    display: none;
 }
 
 @media (max-width: 520px) {
@@ -129,4 +140,147 @@ a[href^="https://"]:after {
   .padded-container{
     padding: var(--space-two) 0px;
   }
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Link Button */
+.btn {
+padding: .5rem .8rem;
+border-radius: .2rem;
+color: var(--flexoki-light-bg);
+background: linear-gradient(to right, #2a2927, #403e3b);
+transition: .3s ease;
+text-decoration: none;
+font-weight: var(--weight-regular);
+font-size: var(--font-small);
+border: 0;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, var(--flexoki-base-850), #66645f);
+}
+
+.note-title a {
+  border: 0;
+}
+
+.two-column-work {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-unit);
+  padding: var(--space-three) 0;
+  border-bottom: 1px solid var(--flexoki-light-ui2);
+}
+
+.two-column-work a {
+  text-decoration: none;
+  color: var(--color-title);
+}
+
+.work-heading {
+  font-weight: var(--weight-bold);
+  font-size: 1.1rem;
+  margin-bottom: var(--space-three);
+}
+
+.project-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-four);
+  align-items: start;
+}
+
+.project-content h2 {
+  color: var(--color-brand);
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-three);
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+@media (max-width: 520px) {
+  .project-section {
+      grid-template-columns: 1fr;
+  }
+}
+
+.title-text {
+  font-weight: var(--weight-bold);
+  color: var(--color-title);
+  margin-bottom: 0;
+}
+
+.title-sub-text {
+  font-size: var(--font-small);
+  color: var(--color-text);
+  margin-bottom: var(--space-three);
+}
+
+.project-sub-text {
+  font-size: var(--font-small);
+  color: var(--color-text);
+  margin-bottom: var(--space-two);
+  line-height: 20px;
+}
+
+
+
+.title-sub-text span {
+  color: var(--color-brand);
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-two);
+  padding: var(--space-three) 0;
+}
+
+.work-item {
+}
+
+.title-wrapper {
+  border-bottom: 1px solid var(--flexoki-light-ui2);
+  margin-bottom: var(--space-two);
+  padding-bottom: var(--space-one);
+}
+
+.title-sub-text {
+  font-size: var(--font-small);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.title-sub-text span {
+  color: var(--color-brand);
+  margin-right: 4px;
+}
+
+@media (max-width: 520px) {
+  .work-grid {
+      grid-template-columns: 1fr;
+  }
+}
+
+.title-text a {
+  font-weight: var(--weight-bold);
+  color: var(--color-title);
+  text-decoration: none;
+}
+
+.title-text a:hover {
+  color: var(--color-brand);
 }

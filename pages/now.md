@@ -4,4 +4,5 @@ permalink: /now
 title: Now
 date: 2024-10-16
 ---
-Through my mentoring, I managed to [donate Rs.10,200](https://x.com/hfactor/status/1842912187695694091) to help out with the [Wayanad Landslide](https://en.wikipedia.org/wiki/2024_Wayanad_landslides) relief.  I've been missing face-to-face interactions lately. So I'm making it a point to get out there more, hit up some offline events, and actually meet people face-to-face.If you're in Bangalore, give me a shout! It'd be great to connect.
+
+Building and ideating on strategic design projects at work. On personal front, feeling excited about reviving my newsletter next month and launching a curation project early 2024. Getting my hands dirty with interior design learning, and looking forward to more travels and offline meetings in the coming months.

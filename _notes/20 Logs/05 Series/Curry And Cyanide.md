@@ -3,7 +3,7 @@ title: Curry And Cyanide
 date: 2023-12-25
 meta-url: https://www.netflix.com/in/title/81564452
 cover: https://upload.wikimedia.org/wikipedia/en/0/05/Curry_%26_Cyanide_Cover.jpg
-category: Series
+category: Movies
 meta-lang: English
 meta-year: 2023
 meta-people: Christo Tomy, Shalini Ushadevi

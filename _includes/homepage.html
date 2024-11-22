@@ -1,37 +1,33 @@
 <!-- intro section -->
 <div class="slot-large">
-  <h3>Hiran Venugopalan</h3> 
+  <h3>Hiran Venugopalan</h3>
   <p>
-  A tinkerer who loves building <i>things</i>, with a passion for minimalism. 
-  I find joy in reading, traveling, brewing coffee, and getting lost in great movies. 
-  12 years of experience in digital product designing, currently leading designs at Kaleyra.
+  Product and type designer with 14 years of building and leading design teams. 
+  Currently crafting digital experiences at <a href="https://www.kaleyra.com/">Kaleyra</a>. 
   </p>
+  <p>
+  This website serves as my digital garden — 
+  a collection of {%- include moc-list.html -%}
+  </p>
+  <p>
+  I <i>build</i> things and love collaborating on experimental projects with like-minded people. 
+  I also mentor designers looking to grow. 
+  Drop me an email if you'd like to connect or explore ideas together. 
+  I live in Bangalore, if you're ever here — let's meet for a cup of coffee.
+  </p>
+
+<div class="button-group">
+  <a href="mailto:hiran.v@gmail.com" class="btn">Drop an email</a>
+  <a href="https://hiran.substack.com/" class="btn">Join Newsletter</a>
 </div>
 
-<!--links-->
-<div class="slot-large">
-  <h3>Digital Garden</h3> 
-  <p>This website is my digital garden, a half-blog-half-wiki! Here, you'll find my ever-changing 
-  {%- include moc-list.html -%}</p>
 </div>
        
 <!-- now page -->
 <div class="slot-large">
-  <h3>Now</h3> 
+  <h3>Now</h3>
   {% assign now_page = site.pages | where: "name", "now.md" | first %}
   {{ now_page.content | markdownify }}
 </div>
 
-<!-- subscribe bar -->
-<div class="slot-large" style="padding-top: 8px;">
-  <div class="subscribe-bar">
-    Now and then, I send bite-sized notes about
-    <a href="https://hiran.substack.com/">This&That</a> to your inbox          
-  </div>    
-</div>
-
-  <!-- contact section -->
-<div class="slot-large">
-  <h3>Contact</h3> 
-  <p>I offer coaching on design thinking and problem solving. If you need a design collaborator for small, 
-  fun projects, feel free to <a href="mailto:hiran@hiran.in">contact me</a>.</p>
+<div>

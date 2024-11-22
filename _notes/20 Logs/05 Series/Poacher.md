@@ -3,7 +3,7 @@ title: Poacher
 date: 2024-02-21
 meta-url: https://www.primevideo.com/dp/amzn1.dv.gti.16e9cad8-537b-4257-97bf-0372b0f057bc
 cover: https://upload.wikimedia.org/wikipedia/en/b/b3/Poacher_TV_series.jpg
-category: Series
+category: Movies
 meta-lang: Malayalam
 meta-year: 2024
 meta-people: Richie Mehta, Gopan Chidambaran

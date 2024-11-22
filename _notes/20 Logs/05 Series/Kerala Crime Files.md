@@ -3,7 +3,7 @@ title: Kerala Crime Files
 date: 2023-06-24
 meta-url: https://www.hotstar.com/in/tv/kerala-crime-files-shiju-parayil-veedu-neendakara/1260141610
 cover: https://m.media-amazon.com/images/M/MV5BMmQ5OGRmNDktMjEyZi00NGUwLWFjYTUtZjM5OTdlZGY3N2MxXkEyXkFqcGdeQXVyMTU4Nzg2MTc4._V1_.jpg
-category: Series
+category: Movies
 meta-lang: Malayalam
 meta-year: 2023
 meta-people: Ahammed Khabeer, Ashiq Aimar

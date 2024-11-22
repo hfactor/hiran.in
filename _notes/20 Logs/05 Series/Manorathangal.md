@@ -3,7 +3,7 @@ title: Manorathangal
 date: 2024-08-17
 meta-url: https://www.google.com/search?q=manorathangal&sourceid=chrome&ie=UTF-8
 cover: https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Manorathangal.webp/220px-Manorathangal.webp.png
-category: Series
+category: Movies
 meta-lang: Malayalam
 meta-year: 2024
 meta-people: M. T. Vasudevan Nair

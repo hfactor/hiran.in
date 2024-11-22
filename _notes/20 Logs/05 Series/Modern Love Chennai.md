@@ -3,7 +3,7 @@ title: Modern Love Chennai
 date: 2023-07-06
 meta-url: https://www.primevideo.com/dp/amzn1.dv.gti.8b0bbbfb-68da-46f0-9e47-930a397cdfa7
 cover: https://upload.wikimedia.org/wikipedia/en/2/2a/Modern_Love_Chennai.jpg
-category: Series
+category: Movies
 meta-lang: Tamil
 meta-year: 2023
 meta-people: 

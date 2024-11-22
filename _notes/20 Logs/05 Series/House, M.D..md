@@ -3,7 +3,7 @@ title: House, M.D.
 date: 2023-08-01
 meta-url: https://www.netflix.com/in/title/70136117
 cover: https://upload.wikimedia.org/wikipedia/en/0/07/HouseMD-s2-AU-DVD.jpg
-category: Series
+category: Movies
 meta-lang: English
 meta-year: 2004
 meta-people: David Shore
