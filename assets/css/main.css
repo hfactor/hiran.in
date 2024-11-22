@@ -101,46 +101,6 @@ ul, ol {
   stroke: var(--color-brand);
 }
 
-/* External link: detects if href starts with http:// or https:// */
-/* External link icon for regular links only */
-p a[href^="http://"]:after,
-p a[href^="https://"]:after,
-li a[href^="http://"]:after,
-li a[href^="https://"]:after {
-    content: '';
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19L19 5M5 5h14v14"/></svg>');
-    background-size: contain;
-}
-
-/* Explicitly remove icon from buttons and headings */
-.btn[href^="http://"]:after,
-.btn[href^="https://"]:after,
-h3 a[href^="http://"]:after,
-h3 a[href^="https://"]:after {
-    display: none;
-}
-
-@media (max-width: 520px) {
-  .nav{
-    padding: var(--space-three) 0px;
-  }
-  .two-column-grid-layout {
-    grid-template-columns: 1fr;
-  }
-  .cover-image {
-    width: 100%;
-  }
-  
-  .slot-small {
-    padding: var(--space-half) 0;
-}
-  .padded-container{
-    padding: var(--space-two) 0px;
-  }
-}
 
 /* Button Group */
 .button-group {
@@ -283,4 +243,45 @@ border: 0;
 
 .title-text a:hover {
   color: var(--color-brand);
+}
+
+/* External link: detects if href starts with http:// or https:// */
+/* External link icon for regular links only */
+p a[href^="http://"]:after,
+p a[href^="https://"]:after,
+li a[href^="http://"]:after,
+li a[href^="https://"]:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19L19 5M5 5h14v14"/></svg>');
+    background-size: contain;
+}
+
+/* Explicitly remove icon from buttons and headings */
+.btn[href^="http://"]:after,
+.btn[href^="https://"]:after,
+h3 a[href^="http://"]:after,
+h3 a[href^="https://"]:after {
+    display: none;
+}
+
+@media (max-width: 520px) {
+  .nav{
+    padding: var(--space-three) 0px;
+  }
+  .two-column-grid-layout {
+    grid-template-columns: 1fr;
+  }
+  .cover-image {
+    width: 100%;
+  }
+  
+  .slot-small {
+    padding: var(--space-half) 0;
+}
+  .padded-container{
+    padding: var(--space-two) 0px;
+  }
 }
