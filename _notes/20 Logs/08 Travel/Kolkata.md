@@ -3,10 +3,10 @@ title: Kolkata
 date: 2024-11-18
 category: Travel
 meta-year: 2024
+meta-url: https://en.wikipedia.org/wiki/Kolkata
+meta-publisher: Wikipedia
+meta-lang: October
 ---
-**When**: October 2024  
-**Reference**: [Wikipedia - Kolkata](https://en.wikipedia.org/wiki/Kolkata)
-
 ## Quick Facts
 * Despite being crowded, the city is cleaner than its reputation suggests
 * Locals are friendly, attentive, and helpful
@@ -33,7 +33,7 @@ meta-year: 2024
 * [Peter Cat](https://maps.app.goo.gl/BTf9gSLEy9rYaz9m7) - Continental cuisine
 * [The Blue Poppy Thakali](https://maps.app.goo.gl/MXEh2Ca8DVDTGMkH7) - Tibetan cuisine, known for Chilli Pork and Momos
 * [Mohun Bagan Canteen](https://maps.app.goo.gl/AE7zP94L9pS4ZmGf8) - Try the Fried Fish and Devil's Egg
-* [Indian Coffee House](https://maps.app.goo.gl/YDJPyyjS2m2NbqUX9) - Historic café, famous for mutton omelette and bread toast
+* [Indian Coffee House](https://maps.app.goo.gl/YDJPyyjS2m2NbqUX9) - Historic cafe, famous for coffee, special cold coffee, mutton omelette and bread toast
 * [Olypub](https://maps.app.goo.gl/dEXfd4QJPHh8JyBM9) - Traditional bar atmosphere with excellent food
 * [Kusum Roll](https://maps.app.goo.gl/SQL2u6rNcfY11JaC6) - Best Kolkata rolls
 * [Maharaj Snacks](https://maps.app.goo.gl/oD9dQtNBzCgJCQq8A) - Outstanding breakfast options
