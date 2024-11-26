@@ -3,7 +3,7 @@ title: Forgotten Foods
 date: 2024-10-04
 meta-url: 
 cover: 
-category: AntiLibrary
+category: Library
 meta-lang: English
 meta-year: 
 meta-people: Multiple Authors
@@ -12,4 +12,5 @@ recommended:
 revisit: 
 local-title: 
 booktype: 📖
+subtopic: Reading Now
 ---

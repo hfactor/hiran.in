@@ -12,4 +12,5 @@ recommended:
 revisit: 
 local-title: 
 booktype: 📖
+subtopic: Reading Now
 ---
