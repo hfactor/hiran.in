@@ -2,6 +2,7 @@
 title: Recipe - Long Glass AeroPress
 date: 2023-12-15
 category: Coffee
+subtopic: Recipe
 ---
 - Roast: Medium Dark, Dark
 - Grind Size : Medium-Fine (like fine sand)
@@ -21,10 +22,10 @@ category: Coffee
 - Add 180ml of 85-88c water. 
 
 ## Recommended Coffee
-- [[Coffee - Tall Dark Handsome from Maverick & Farmers]]
-- [[Coffee - Loris from Black Baza]]
-- [[Coffee - Liquid Luck from Handcrafted]]
-- [[Coffee - Julien Peak Forest from Marc's Coffee]]
+- [[Tall Dark Handsome]]
+- [[Loris]]
+- [[Liquid Luck]]
+- [[Julien Peak Forest]]
 
 
 

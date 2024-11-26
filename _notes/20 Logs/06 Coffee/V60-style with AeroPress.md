@@ -1,7 +1,8 @@
 ---
-title: Recipe - V60-style with AeroPress
+title: V60-style with AeroPress
 date: 01-04-2024
 category: Coffee
+subtopic: Recipe
 ---
 - Roast: Medium, Medium Dark 
 - Grind Size :  Medium (like table salt)
@@ -21,6 +22,6 @@ category: Coffee
 - (Press after hiss, if you want the oil, in that case, press faster!)
 
 ## Recommended Coffee
-- [[Coffee - Say Hello to Mellow from Maverick & Farmers]]
-- [[Coffee - SL-28 CM Washed from Genetics Coffee]]
-- [[Coffee - Jumping Ant from Black Baza]]
+- [[Say Hello to Mellow]]
+- [[SL-28 CM Washed]]
+- [[Jumping Ant]]

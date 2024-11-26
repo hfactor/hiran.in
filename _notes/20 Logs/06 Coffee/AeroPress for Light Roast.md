@@ -1,8 +1,9 @@
 ---
-title: Recipe - AeroPress for Light Roast
+title: AeroPress for Light Roast
 date: 2024-04-20
 meta-url: 
 category: Coffee
+subtopic: Recipe
 ---
 - Roast: Light
 - Grind Size : Medium-Fine (like fine sand)
@@ -22,6 +23,6 @@ category: Coffee
 - Press gently, target 30 seconds
 
 ## Recommended Coffee
-- [[Coffee - Jumping Ant from Black Baza]]
+- [[Jumping Ant]]
 
 

@@ -11,62 +11,108 @@
 </div>
 
 <div class="slot-small">
+    {% comment %} First show notes grouped by subtopic {% endcomment %}
+{% assign subtopics = "" | split: "" %}
 {% for note in sorted_notes %}
-    {% if note.category == page.cat-value %}
+    {% if note.category == page.cat-value and note.subtopic %}
+        {% assign current_subtopic = note.subtopic | strip %}
+        {% unless subtopics contains current_subtopic %}
+            {% assign subtopics = subtopics | push: current_subtopic %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% assign subtopics = subtopics | sort %}
+
+{% for subtopic in subtopics %}
+    <div class="note-list-sec">
+        <h2>{{ subtopic }}</h2>
+        <ul class="note-list">
+        {% assign subtopic_notes = sorted_notes | where: "category", page.cat-value | where: "subtopic", subtopic | sort: "title" %}
+        {% for note in subtopic_notes %}
+            {% capture note_content %}{{ note.content | replace: '---', '' | strip_newlines | strip_html | strip | replace: ' ', '' }}{% endcapture %}
+            {% capture meta_url %}{{ note.meta-url | strip_newlines | strip_html | strip }}{% endcapture %}
+            
+            {% if note_content != "" %}
+                <li><div class="note-title"> 
+                    <a href="{{ site.baseurl }}{{ note.url }}">
+                        {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}                    
+                        {% if note.recommended == true %} ✦{% endif %}
+                        {% if note.revisit == true %} ❷{% endif %}
+                    </a>
+                </div></li>
+            {% elsif meta_url != "" %}
+                <li><div class="note-title">
+                    <a href="{{ meta_url }}"> 
+                        {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}
+                        {% if note.recommended == true %} ✦{% endif %}
+                        {% if note.revisit == true %} ❷{% endif %}
+                    </a>
+                </div></li>
+            {% else %}
+                <li><div class="note-title">
+                    {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}
+                    {% if note.recommended == true %} ✦{% endif %}
+                    {% if note.revisit == true %} ❷{% endif %}
+                </div></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+{% endfor %}
+
+{% comment %} Then show remaining notes grouped by year/month/none {% endcomment %}
+{% assign current_group = '' %}
+{% assign group_content = '' %}
+{% assign grouped_notes = "" | split: "" %}
+
+{% for note in sorted_notes %}
+    {% if note.category == page.cat-value and note.subtopic == nil %}
         {% assign note_date = note.date | date: "%Y-%m-%d" %}
         {% capture group_date %}
         {% case page.group-by %}
-            {% when "year" %}
-                {{ note_date | date: "%Y" }}
-            {% when "quarter" %}
-                {% assign quarter = note_date | date: "%-m" | plus: 2 | divided_by: 3 %}
-                Q{{ quarter }} - {{ note_date | date: "%B - " }}{{ note_date | date: "%B" | append: " - " | append: quarter | append: ", " }}{{ note_date | date: "%Y" }}
-            {% when "month" %}
-                {{ note_date | date: "%B, %Y" }}
-            {% when "date" %}
-                {{ note_date | date: "%d" }}{% assign day_suffix = note_date | date: "%-d" %}{% if day_suffix == 1 or day_suffix == 21 or day_suffix == 31 %}st{% elsif day_suffix == 2 or day_suffix == 22 %}nd{% elsif day_suffix == 3 or day_suffix == 23 %}rd{% else %}th{% endif %} of {{ note_date | date: "%B, %Y" }}
-            {% when "none" %}
-                {% assign group_date = nil %}
+            {% when "year" %}{{ note_date | date: "%Y" }}
+            {% when "month" %}{{ note_date | date: "%B, %Y" }}
+            {% when "none" %}{% assign group_date = nil %}
         {% endcase %}
         {% endcapture %}
+
         {% if group_date != null %}
             {% if group_date != current_group %}
                 {% if current_group != "" %}
                     {% assign grouped_notes = grouped_notes | push: group_content %}
                 {% endif %}
                 {% assign current_group = group_date %}
-                {% assign last_group_date = note_date %}
-                {% capture group_content %} 
-                    <h2> {{ group_date }} </h2>
-                {% endcapture %}
+                {% capture group_content %}<h2>{{ group_date }}</h2>{% endcapture %}
             {% endif %}
         {% endif %}      
+
         {% capture note_content %}{{ note.content | replace: '---', '' | strip_newlines | strip_html | strip | replace: ' ', '' }}{% endcapture %}
         {% capture meta_url %}{{ note.meta-url | strip_newlines | strip_html | strip }}{% endcapture %}
         
         {% capture group_content %}
         {{ group_content }}
             {% if note_content != "" %}
-                <li> <div class="note-title"> 
-                <a href="{{ site.baseurl }}{{ note.url }}">
-                    {% if note.local-title %} {{ note.local-title }} {% else %} {{ note.title }} {% endif %}                    
-                    {% if note.recommended == true %} ✦{% endif %}
-                    {% if note.revisit == true %} ❷{% endif %}
-                    
-                </a></div></li>
+                <li><div class="note-title"> 
+                    <a href="{{ site.baseurl }}{{ note.url }}">
+                        {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}                    
+                        {% if note.recommended == true %} ✦{% endif %}
+                        {% if note.revisit == true %} ❷{% endif %}
+                    </a>
+                </div></li>
             {% elsif meta_url != "" %}
-                <li> <div class="note-title">
-                <a href="{{ meta_url }}"> 
-                    {% if note.local-title %} {{ note.local-title }}{% else %} {{ note.title }} {% endif %}
-                    {% if note.recommended == true %} ✦{% endif %}
-                    {% if note.revisit == true %} ❷{% endif %}
-                </a></div></li>
+                <li><div class="note-title">
+                    <a href="{{ meta_url }}"> 
+                        {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}
+                        {% if note.recommended == true %} ✦{% endif %}
+                        {% if note.revisit == true %} ❷{% endif %}
+                    </a>
+                </div></li>
             {% else %}
-                <li> <div class="note-title">
-                    {% if note.local-title %} {{ note.local-title }} {% else %} {{ note.title }} {% endif %}
+                <li><div class="note-title">
+                    {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}
                     {% if note.recommended == true %} ✦{% endif %}
                     {% if note.revisit == true %} ❷{% endif %}
-                    {% if note.booktype %} {{ note.booktype }} {% endif %}
                 </div></li>
             {% endif %}
         {% endcapture %}
@@ -77,5 +123,5 @@
 {% for group in grouped_notes %}
     <div class="note-list-sec"><ul class="note-list">
         {{ group }}
-    </ul> </div>
+    </ul></div>
 {% endfor %}

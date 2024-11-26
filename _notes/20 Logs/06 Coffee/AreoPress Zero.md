@@ -1,10 +1,11 @@
 ---
-title: Recipe - AreoPress Zero
+title: AreoPress Zero
 date: 2024-08-17
 meta-url: 
 category: Coffee
 meta-lang: 
-meta-publisher:
+meta-publisher: 
+subtopic: Recipe
 ---
 This recipe is designed for the AeroPress Go, **perfect for travel without a thermometer or scale**. This is optimised for medium roast, medium-fine ground coffee.
 ## Preparation
@@ -22,4 +23,4 @@ This recipe is designed for the AeroPress Go, **perfect for travel without a the
 - Serve as is, or mix with hot water or ice.
 
 ### Recommended Coffee
-- [[Coffee - Say Hello to Mellow from Maverick & Farmers]]
+- [[Say Hello to Mellow]]

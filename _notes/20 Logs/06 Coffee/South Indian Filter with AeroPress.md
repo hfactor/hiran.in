@@ -1,9 +1,10 @@
 ---
-title: Recipe - South Indian Filter with AeroPress
+title: South Indian Filter with AeroPress
 date: 2023-12-14
 category: Coffee
+subtopic: Recipe
 ---
-I have tried making Coffee using South Indian Coffee Powder (Robusta+Chicory, Generally 4:1 ratio) and it's worth mentioning. It's similar to [[Recipe - V60-style with AeroPress]], with reduced the temperature (which reduces the bitterness) and increased the water (diluting it). 
+I have tried making Coffee using South Indian Coffee Powder (Robusta+Chicory, Generally 4:1 ratio) and it's worth mentioning. It's similar to [[V60-style with AeroPress]], with reduced the temperature (which reduces the bitterness) and increased the water (diluting it). 
 
 
 - AeroPress Position: Standard 
