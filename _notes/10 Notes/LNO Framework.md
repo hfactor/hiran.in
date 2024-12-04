@@ -2,6 +2,7 @@
 title: LNO Framework
 date: 2024-06-14
 category: Notes
+internal-tag: "[[Working Notes]]"
 ---
 
 **All your tasks are not created equal. All tasks doesn't deserve your best effort.** 

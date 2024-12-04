@@ -11,7 +11,9 @@ meta-publisher: Netflix
 recommended: no
 revisit: no
 local-title:
+internal-tag: "[[Movies]]"
 ---
+
  > VJS is attached to his character but is also detached from the plot. He stands slightly at a distance from what is happening around him, to maintain a dry and sarcastic commentary.
  > 
 > -- [Vijay Sethupathi's Philosophy of Acting, Moving Image](https://www.youtube.com/watch?v=F8L6FRyEZsE&t=1s) 

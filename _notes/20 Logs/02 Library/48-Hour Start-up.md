@@ -11,4 +11,5 @@ meta-publisher: Harper Thorsons
 recommended: no
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---

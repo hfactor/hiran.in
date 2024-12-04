@@ -6,7 +6,9 @@ category: Coffee
 meta-lang: 
 meta-publisher: 
 subtopic: Recipe
+internal-tag: "[[Coffee]]"
 ---
+
 Moka is a great tool to make rich, concentrated brew, especially if you like cloudy texture. It's easy, and by following very basic steps, it guarantee a good coffee. I prefer medium-dark or dark coffee for this method. 
 
 - Coffee : 20gm

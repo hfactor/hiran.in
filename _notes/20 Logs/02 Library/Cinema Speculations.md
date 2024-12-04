@@ -11,8 +11,8 @@ meta-publisher: W&N
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
-
 Cinema Speculation is a blend of personal stories, film critiques, and cultural observations from Quentin Tarantino. It feels like a guided tour through American movie history. The book is packed with information, which is no surprise coming from Tarantino, who is known for his vast knowledge of films.
 
 In this book, Tarantino picks movies that shaped his artistic style. He doesn't just talk about films; he connects them to their time period, looking at how they reflected and changed society.

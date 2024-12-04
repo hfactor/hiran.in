@@ -11,4 +11,6 @@ meta-publisher:
 recommended: 
 revisit:
 booktype: 📟
+internal-tag: "[[AntiLibrary]]"
 ---
+

@@ -13,7 +13,9 @@ meta-people: William Zinsser
 meta-publisher: Harper Perennial
 recommended: no
 revisit: no
+internal-tag: "[[Library]]"
 ---
+
 A book worth reading, if you are interested in writing non-fictions. It offers advice on how to write clearly, providing examples on eliminating clutter and unnecessary words. 
 
 Covering various forms of non-fiction, it outlines the process of editing and rewriting in an engaging way. 

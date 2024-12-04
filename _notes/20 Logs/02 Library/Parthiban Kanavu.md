@@ -12,7 +12,9 @@ recommended: no
 revisit: no
 local-title: 
 booktype: 🎧
+internal-tag: "[[Library]]"
 ---
+
 I was looking for proper fiction, something unusual and different from my usual genres. Last year, I listened to the audiobook of "Ponniyin Selvan," so I picked its prequel this time. Technically, it's not a prequel but more of a curtain raiser to "Ponniyin Selvan."
 
 Kalki is a textbook example of 'mass storytelling' in Tamil movies. While the story is similar to many historical fictions, Kalki knows how to articulate the story in a narrative format that makes it seem like he was there when it happened. The conviction of his narration is what makes this engaging. For "Ponniyin Selvan" fans, it's a great read, though not as meaty as PS.

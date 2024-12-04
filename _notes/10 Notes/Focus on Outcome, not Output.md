@@ -2,6 +2,7 @@
 title: Focus on Outcome, not Output
 date: 2024-06-17
 category: Notes
+internal-tag: "[[Working Notes]]"
 ---
 
 **Output** is measured based on scope, cost, and time. Where as **Outcome** is measured based on behaviour, satisfaction, and Impact. (Impacts like ROI, Market share, etc., might be lagging indicators.)

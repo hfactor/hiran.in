@@ -10,7 +10,9 @@ meta-people: Anees Salim
 meta-publisher: Penguin Random House
 recommended: yes
 revisit: no
+internal-tag: "[[Library]]"
 ---
+
 
 Initial pages had a spark and engagement that kept me going, but still it was hard for me to understand the narration pattern. Soon the narrative structure and characters become more precise, letting the reader picture all eight characters with all details, like an oil painting, similar to the book's cover. 
 

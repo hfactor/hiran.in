@@ -12,4 +12,6 @@ recommended:
 revisit: 
 local-title: മോട്ടോർ സൈക്കിൾ ഡയറീസ് ജോണിനൊപ്പം
 booktype: 📖
+internal-tag: "[[AntiLibrary]]"
 ---
+

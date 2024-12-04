@@ -6,7 +6,9 @@ meta-year: 2024
 meta-url: https://en.wikipedia.org/wiki/Kolkata
 meta-publisher: Wikipedia
 meta-lang: October
+internal-tag: "[[Travel]]"
 ---
+
 ## Quick Facts
 * Despite being crowded, the city is cleaner than its reputation suggests
 * Locals are friendly, attentive, and helpful

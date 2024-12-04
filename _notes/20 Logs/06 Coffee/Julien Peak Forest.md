@@ -6,7 +6,9 @@ category: Coffee
 meta-lang: 
 meta-publisher: Marc's Coffee
 subtopic: Tasting Notes
+internal-tag: "[[Coffee]]"
 ---
+
 An Arabica from Shevaroy Hills, Tamil Nadu, roasted to light (Medium Light for me), the coffee comes is acidic and has less body. The flavour sweet notes are of cinnamon. The aroma is fresh and floral and great for morning cup of coffee.
 
 ## Recommended Recipe

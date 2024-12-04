@@ -10,7 +10,9 @@ meta-people: Mari Selvaraj
 meta-publisher: Netflix
 recommended: yes
 revisit: no
+internal-tag: "[[Movies]]"
 ---
+
 
 Mari stands out as one of the most brilliant Tamil directors in recent years, adept at utilising film as a powerful tool to convey his political ideologies. In a manner reminiscent of his prior work, [[Pariyerum Perumal]] his latest film maintains a political undercurrent, albeit with fewer symbols and motifs. This time, Mari opts for a more direct and unequivocal narrative approach to convey his political stance.
 

@@ -4,4 +4,6 @@ date: 2024-08-17
 meta-url: https://www.raptitude.com/2010/07/your-lifestyle-has-already-been-designed/
 category: WebFound
 meta-year: 2024
+internal-tag: "[[Web Found]]"
 ---
+

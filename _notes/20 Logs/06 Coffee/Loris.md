@@ -6,7 +6,9 @@ category: Coffee
 meta-lang: 
 meta-publisher: Black Baza
 subtopic: Tasting Notes
+internal-tag: "[[Coffee]]"
 ---
+
 Loris is SLN9 Dark roasted, providing a high bodied chocolate notes, with sweetness and bitterness.
 
 ## Recommended Recipe 

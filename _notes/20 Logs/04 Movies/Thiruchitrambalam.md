@@ -10,7 +10,9 @@ meta-people: Mithran R. Jawahar
 meta-publisher: Amazon Prime
 recommended: no
 revisit: no
+internal-tag: "[[Movies]]"
 ---
+
 
 There exist two varieties of Dhanush films: one where he embodies the typical Tamil movie hero, and another where he adopts a more relatable persona. This film falls into the latter category.
 

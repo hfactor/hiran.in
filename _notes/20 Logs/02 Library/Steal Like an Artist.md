@@ -11,6 +11,7 @@ meta-publisher: Workman Publishing
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
 Austin Kleon excels in two areas: clarity and storytelling. As with his other works (which I later explored), this book concentrates on a single topic, employing straightforward, positive, and inspiring language without unnecessary complexity. 
 

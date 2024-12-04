@@ -6,7 +6,9 @@ category: Coffee
 meta-lang: 
 meta-publisher: Maverick & Farmers
 subtopic: Tasting Notes
+internal-tag: "[[Coffee]]"
 ---
+
 Say Hello to Mellow is a mild roasted Arabica from [[Roasters - Maverick and Farmer]]. This provides a great mouth feel, clean cup of coffee with fruity flavours. 
 
 ## Recommended Recipes

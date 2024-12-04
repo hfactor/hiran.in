@@ -10,7 +10,9 @@ meta-people: Karthik Subbaraj
 meta-publisher: Netflix
 recommended: yes
 revisit: no
+internal-tag: "[[Movies]]"
 ---
+
 
 Jigarthanda DoubleX is indisputably Karthik Subbaraj's most political film, showcasing his passion for the art of cinema. Known for his exceptional writing and unwavering belief in his work, Subbaraj's confidence in content is evident in films like Pizza, Jigarthanda, and Mahaan. This is apparent in Jigarthanda DoubleX as well.
 

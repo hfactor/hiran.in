@@ -13,4 +13,6 @@ revisit:
 local-title: 
 booktype: 📖
 subtopic: Reading Now
+internal-tag: "[[Library]]"
 ---
+

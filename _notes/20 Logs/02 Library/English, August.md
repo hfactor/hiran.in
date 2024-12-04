@@ -11,7 +11,9 @@ meta-publisher: Faber & Faber
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
+
 
 It's hard to believe that this novel was written in 1988. The protagonist's inner dialogues and the sarcastic tone used to discuss various subjects reveal that, despite differences in age, background, and experiences, there is a shared way of thinking among people.
 

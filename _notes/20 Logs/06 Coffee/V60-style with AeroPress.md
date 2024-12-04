@@ -3,7 +3,9 @@ title: V60-style with AeroPress
 date: 01-04-2024
 category: Coffee
 subtopic: Recipe
+internal-tag: "[[Coffee]]"
 ---
+
 - Roast: Medium, Medium Dark 
 - Grind Size :  Medium (like table salt)
 - AeroPress Position: Standard 

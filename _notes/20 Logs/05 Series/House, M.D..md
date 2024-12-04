@@ -10,5 +10,7 @@ meta-people: David Shore
 meta-publisher: Netflix
 recommended: yes
 revisit: yes
+internal-tag: "[[Movies]]"
 ---
+
 I like it for the characters, actors and the sarcasm. Medical 'thriller' is not that exciting for me, but the drama is. I remember watching first 5-6 season while I was in school. And in 2023, we revisited the whole series! 

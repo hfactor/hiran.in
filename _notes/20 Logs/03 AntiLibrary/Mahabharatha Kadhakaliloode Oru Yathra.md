@@ -12,4 +12,6 @@ recommended:
 revisit: 
 local-title: മഹാഭാരത കഥകളിലൂടെ ഒരു യാത്ര
 booktype:
+internal-tag: "[[AntiLibrary]]"
 ---
+

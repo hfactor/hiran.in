@@ -12,4 +12,6 @@ recommended:
 revisit: 
 local-title: വിശപ്പ് പ്രണയം ഉന്മാദം
 booktype: 📖
+internal-tag: "[[AntiLibrary]]"
 ---
+

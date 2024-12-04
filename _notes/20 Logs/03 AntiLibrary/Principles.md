@@ -10,4 +10,6 @@ meta-people: Ray Dalio
 meta-publisher: 
 recommended: 
 revisit:
+internal-tag: "[[AntiLibrary]]"
 ---
+

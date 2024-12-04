@@ -12,7 +12,9 @@ recommended: no
 revisit: no
 local-title: 
 booktype:
+internal-tag: "[[Library]]"
 ---
+
 I picked up this book after watching countless Ali Abdaal videos on YouTube, and it delivered what I expected. If you've watched his content, you'll find the same principles unfold on paper.
 
 The book stands as an anti-thesis to hustle culture, which I found both refreshing and repetitive. Ali keeps circling back to his core message: it's okay to enjoy your work, take breaks without guilt, and find pleasure in being productive. 

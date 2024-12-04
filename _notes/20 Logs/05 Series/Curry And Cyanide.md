@@ -10,7 +10,9 @@ meta-people: Christo Tomy, Shalini Ushadevi
 meta-publisher: Netflix
 recommended: yes
 revisit: no
+internal-tag: "[[Movies]]"
 ---
+
 
 I am uncertain if I like the series due to the excessive drama and unexpected portrayal of certain visuals. But the storytelling has a genuine soul. The story unfolds as it did in real life which adds authenticity to the narration. 
 

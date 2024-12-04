@@ -3,7 +3,9 @@ title: Recipe - Long Glass AeroPress
 date: 2023-12-15
 category: Coffee
 subtopic: Recipe
+internal-tag: "[[Coffee]]"
 ---
+
 - Roast: Medium Dark, Dark
 - Grind Size : Medium-Fine (like fine sand)
 - AeroPress Position: Standard 

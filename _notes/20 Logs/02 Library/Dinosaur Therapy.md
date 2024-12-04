@@ -11,6 +11,8 @@ meta-publisher: HarperCollins
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
+
 
 4-panel, basic drawing, colourful cartoon strip with Dinosaurs as main character. What's the super-power? Well, they are dealing with anxiety, depression, imposter syndrome, and crippling self-doubt! It's brilliant, funny, and **relatable**!

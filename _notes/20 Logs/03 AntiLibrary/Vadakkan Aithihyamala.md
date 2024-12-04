@@ -13,4 +13,6 @@ revisit:
 local-title: വടക്കൻ ഐതിഹ്യമാല
 booktype: 📟
 subtopic: Reading Now
+internal-tag: "[[AntiLibrary]]"
 ---
+

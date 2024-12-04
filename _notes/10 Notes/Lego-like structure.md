@@ -2,6 +2,7 @@
 title: Lego-like structure
 date: 2024-06-12
 category: Notes
+internal-tag: "[[Working Notes]]"
 ---
 
 An easier way of understanding [[Atomicity]] is by comparing it with Lego Box. The Lego Box contains a set of 'blocks,' a basic unit of the game.

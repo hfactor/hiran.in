@@ -11,7 +11,9 @@ meta-publisher: Juggernaut Publication
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
+
 Kudos to Zomato for creating an employee culture handbook that's witty, engaging, and filled with illustrations. It’s not your typical management book with experimental or uncommon strategies for building culture. The concepts are familiar, but the way they’re presented makes you appreciate and connect with the Zomato brand. Releasing the company’s internal handbook as a public read is a brilliant PR move, and the result is an easy, quick, and refreshing read.
 
 You should read if you are part of product companies in India.

@@ -10,7 +10,9 @@ meta-people: Christopher Nolan
 meta-publisher: Amazon Prime
 recommended: yes
 revisit: no
+internal-tag: "[[Movies]]"
 ---
+
 Cillian Murphy's portrayal of Oppenheimer is nothing short of remarkable, skilfully encapsulating the internal conflict and moral turmoil that shaped the scientist's compelling journey.  With Christopher Nolan's classic non-linear storytelling, the audience gets a comprehensive view of Oppenheimer's life.
 
 The cinematography is truly breathtaking, complemented by Hans Zimmer's haunting and potent score. Together, they create a sensory experience that enhances the film's emotional depth. Oppenheimer serves as a reminder of cinema's ability to delve into the intricacies of human nature and the profound choices we confront in the relentless pursuit of knowledge.

@@ -6,7 +6,9 @@ category: Coffee
 meta-lang: 
 meta-publisher: 
 subtopic: Index Note
+internal-tag: "[[Coffee]]"
 ---
+
 
 
 *Written for friends who want to start brewing coffee at home. Very personal opinions and comments.*

@@ -11,7 +11,9 @@ meta-publisher: Hodder Children's Books
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
+
 [Christin](https://x.com/Krriztin) recommended this book as a must-read and even ordered it for me within an hour. It was absolutely worth the hype! This beautifully illustrated graphic novel offers a humanizing narrative that tackles the serious issue of the refugee crisis.
 
 It delves into the struggles, motivations, and tough choices faced by refugees, touching on themes like hope, separation, survival, and human connection—common themes in this context but handled without falling into clichés. The narrative doesn’t shy away from truths, presenting the situation politically without diluting it. 

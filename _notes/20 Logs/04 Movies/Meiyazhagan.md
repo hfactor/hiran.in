@@ -11,7 +11,9 @@ meta-publisher: Netflix
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Movies]]"
 ---
+
 Meiyazhagan beautifully presents a heartfelt, soulful story with depth and sophistication. The content is profound, emotional, and depicts a plausible situation that metaphorically illustrates a broader perspective on relationships, humanity and psychology. Every layer showcases the clarity and beauty of the craft, from character development and storytelling to dialogue and musical composition.
 
 Aravind Swami delivers his career-best performance, while Karthi demonstrates his growing potential. Several scenes stand out, like the marriage dinner conversation and the exchange at the dam, which are soulful, and immerse you in the narrative.

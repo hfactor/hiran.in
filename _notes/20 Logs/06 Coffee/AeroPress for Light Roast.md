@@ -4,7 +4,9 @@ date: 2024-04-20
 meta-url: 
 category: Coffee
 subtopic: Recipe
+internal-tag: "[[Coffee]]"
 ---
+
 - Roast: Light
 - Grind Size : Medium-Fine (like fine sand)
 - AeroPress Position: Standard 

@@ -10,7 +10,9 @@ meta-people: Zoya Akhtar
 meta-publisher: Netflix
 recommended: no
 revisit: no
+internal-tag: "[[Movies]]"
 ---
+
 
 I didn't grow up immersed in The Archies; it was something I encountered occasionally. Hence this adaptation, the characters and plot didn't evoke any significant nostalgia for me. The storytelling was tidy, and the story was quite straightforward - an ideal "no crime, no harm, all is well" film for the holidays. Zoya has a knack for portraying high society convincingly, as evident in her previous movies, and she does so here as well. However, this wasn't quite what I expected from Zoya; the Zoya factor seems to be missing this time around. Also absent is Reema Kagti's assistance in co-writing the script.
 

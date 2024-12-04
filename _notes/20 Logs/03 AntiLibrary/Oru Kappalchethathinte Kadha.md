@@ -12,4 +12,6 @@ recommended:
 revisit:
 local-title: ഒരു കപ്പൽച്ചേതത്തിന്റെ കഥ
 booktype: 📖
+internal-tag: "[[AntiLibrary]]"
 ---
+

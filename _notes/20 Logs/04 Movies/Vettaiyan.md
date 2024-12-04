@@ -11,8 +11,10 @@ meta-publisher:
 recommended: no
 revisit: no
 local-title:
+internal-tag: "[[Movies]]"
+internal-tag: "[[Movies]]"
 ---
-The film suffers from an identity crisis - oscillating between a Rajnikanth spectacle and a Gnanavel social commentary, never quite finding its footing in either realm.
+ film suffers from an identity crisis - oscillating between a Rajnikanth spectacle and a Gnanavel social commentary, never quite finding its footing in either realm.
 
 As a Rajnikanth vehicle, it delivers his signature moments of grandeur and style - scenes that only the Superstar can pull off without appearing excessive. Yet, the pacing feels oddly restrained, never quite achieving the larger-than-life heroism his fans expect. The much-anticipated Amitabh-Rajni pairing falls short of its potential, missing opportunities for more compelling dramatic sequences. However, the Fahadh-Rajni dynamic proves refreshing, reminiscent of the Vivek-Rajni chemistry in Sivaji, where both actors stand as equals.
 

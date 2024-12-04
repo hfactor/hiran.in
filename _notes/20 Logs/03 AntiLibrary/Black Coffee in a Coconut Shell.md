@@ -12,4 +12,6 @@ recommended:
 revisit: yes
 local-title:
 booktype: 📟
+internal-tag: "[[AntiLibrary]]"
 ---
+

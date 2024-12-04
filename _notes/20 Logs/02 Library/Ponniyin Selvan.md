@@ -10,7 +10,9 @@ meta-people: Kalki Krishnamurthy
 meta-publisher: 
 recommended: yes
 revisit: no
+internal-tag: "[[Library]]"
 ---
+
 Ponniyin Selvan is in my radar for few years as it was always mentioned as the most popular Tami fiction of all times. While I tried reading the English translation, it was uninspiring as I could only find first two volume of 5-part book. 
 
 The conversation about Maniratnam's movie version made me reconsider the plan  to read this 

@@ -2,6 +2,7 @@
 title: Use your hands to think
 date: 2024-02-04
 category: Notes
+internal-tag: "[[Working Notes]]"
 ---
 
 In my creative process, I often gravitate towards physical, hands-on methods without relying on digital tools. I find tangible tools provide a unique perspective and ease during ideation that digital alternatives can't always match.

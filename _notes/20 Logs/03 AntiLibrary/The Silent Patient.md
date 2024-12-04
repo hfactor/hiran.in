@@ -11,4 +11,6 @@ meta-publisher:
 recommended: 
 revisit: 
 local-title:
+internal-tag: "[[AntiLibrary]]"
 ---
+

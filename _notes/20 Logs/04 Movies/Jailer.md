@@ -10,7 +10,9 @@ meta-people: Nelson Dilipkumar
 meta-publisher: Amazon Prime
 recommended: no
 revisit: no
+internal-tag: "[[Movies]]"
 ---
+
 
 
 Jailer, Nelson's response to his own film Beast, deviates from the typical Rajni movie formula while still providing a unique experience. In this film, Rajni portrays his actual age, forgoing romance and clear flashbacks, embracing a bloodier narrative, and featuring an ensemble of Indian stars in guest appearances.

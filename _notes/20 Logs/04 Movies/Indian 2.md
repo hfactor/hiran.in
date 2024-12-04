@@ -11,7 +11,9 @@ meta-publisher:
 recommended: no
 revisit: no
 local-title:
+internal-tag: "[[Movies]]"
 ---
+
 என்ன சார் இது!. 
 
 "Indian" (1996) is the perfect blend of a Shankar-Kamal Hassan collaboration. It's a step up from Shankar's "Gentleman," with a larger canvas for storytelling. It also taps into all of Kamal's favorite themes—inner conflicts, rationality, and his favourite Nallavan-Kettan—while offering him a unique role as an 80-year-old grandfather, something rare for a Tamil hero. 

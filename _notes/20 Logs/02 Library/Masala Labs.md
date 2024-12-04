@@ -11,7 +11,9 @@ meta-publisher: Penguin
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
+
 I’m a fan of Krish Ashok’s [YouTube channel](https://www.youtube.com/user/krishashok), where his storytelling, science, and passion for food come together in a unique way. His narrative style makes you feel like part of the process, and it enhances your experience the next time you enjoy that dish.
 
 Masala Labs feels like a book version of his YouTube videos, but more organised and focused specifically on Indian cooking. The book aims to break down Indian culinary practices through scientific principles, offering a helpful framework for those who find Indian cooking sophisticated by explaining what does what.

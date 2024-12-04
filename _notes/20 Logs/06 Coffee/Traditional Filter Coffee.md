@@ -6,7 +6,9 @@ category: Coffee
 meta-lang: 
 meta-publisher: 
 subtopic: Recipe
+internal-tag: "[[Coffee]]"
 ---
+
 
 South Indian coffee is much simpler than other coffee equipment, as it comes with fewer complexities. The variants you can make are limited, as it generally works based on gravity. The tweaks can be made in ground size and coffee:water ratio. Also, it tastes better with milk (and sugar), hence is not something I usually make unless there are guests. 
 

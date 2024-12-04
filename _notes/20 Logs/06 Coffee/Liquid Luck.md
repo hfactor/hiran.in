@@ -6,7 +6,9 @@ category: Coffee
 meta-lang: 
 meta-publisher: 
 subtopic: Tasting Notes
+internal-tag: "[[Coffee]]"
 ---
+
 
 
 A blend, medium-dark roast, with good fruit notes from Handcrafted. They claim it as an expreso blend, but goes well with AeroPress as well. 

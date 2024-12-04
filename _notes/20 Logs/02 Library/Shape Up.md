@@ -10,7 +10,9 @@ meta-people: Ryan Singer
 meta-publisher: BaseCamp
 recommended: yes
 revisit: yes
+internal-tag: "[[Library]]"
 ---
+
 A worthwhile read, this book offers a comprehensive and structured insight into Basecamp's problem-solving and product-building approach, gathered from various tweets and blogs.
 
 Learn to focus on shaping the problem by defining it and setting boundaries before diving into its construction. In other words, bet on the race, not the horse, as Basecamp would say!

@@ -6,7 +6,9 @@ category: Coffee
 meta-lang: 
 meta-publisher: 
 subtopic: Recipe
+internal-tag: "[[Coffee]]"
 ---
+
 This recipe is designed for the AeroPress Go, **perfect for travel without a thermometer or scale**. This is optimised for medium roast, medium-fine ground coffee.
 ## Preparation
 - Boil water, but not to 100°C.

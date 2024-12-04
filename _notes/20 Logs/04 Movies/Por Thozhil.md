@@ -10,7 +10,9 @@ meta-people: Vignesh Raja, Alfred Prakash
 meta-publisher: Sony Liv
 recommended: no
 revisit: no
+internal-tag: "[[Movies]]"
 ---
+
 A satisfactory entertainer with cliches, this thriller is ideal for passing time. Well-crafted and exceeding expectations, it may not linger in your memory after one viewing (beware of gory scenes).
 
 The actors perform admirably, though connection to the protagonist, his boss, or his love interest may be lacking. Timelines can be convoluted and overly complex, yet the plot's weakness is balanced by a screenplay that avoids excessive explanation despite cliches and spoon-feeding.

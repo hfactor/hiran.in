@@ -11,5 +11,7 @@ meta-publisher: Sanage Publishing House
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
+
 This is a solid guide on using the [[Zettelkasten]] method for note-taking. The book has a clear purpose, and if it aligns with your needs, it's a valuable resource. It introduced me to connected note-making, which I now apply in Obsidian and on this website.

@@ -2,6 +2,7 @@
 title: Non-linear Note making
 date: 2024-06-17
 category: Notes
+internal-tag: "[[Working Notes]]"
 ---
 Normal notes are linear, mainly focused on subjects, categorys, and subcategorys. It's a good way if the intention is to collect data. But [[Normal note-taking fails to connect ideas]]
 

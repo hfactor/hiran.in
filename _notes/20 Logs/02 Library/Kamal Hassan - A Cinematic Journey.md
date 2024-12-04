@@ -11,7 +11,9 @@ meta-publisher: HarperCollins India
 recommended: yes
 revisit: no
 local-title:
+internal-tag: "[[Library]]"
 ---
+
 As a hardcore Kamal Hassan fan, I pre-ordered this book as soon as I saw the cover, which resembles Baradwaj Rangan's "Conversations with Mani Ratnam." Both books deeply explore the lives of their subjects, leaving readers wishing they wouldn't end.
 
 Unlike the conversational format of Mani Ratnam's book, this one is composed of articulated essays. This approach provides a broader, more comprehensive view of Kamal Hassan's filmography, highlighting his stardom and aura.

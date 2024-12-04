@@ -12,4 +12,6 @@ recommended:
 revisit: 
 local-title: വേറിട്ട ശ്രീരാമൻ
 booktype: 📖
+internal-tag: "[[AntiLibrary]]"
 ---
+
