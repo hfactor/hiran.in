@@ -275,7 +275,8 @@ h3 a[href^="https://"]:after {
     grid-template-columns: 1fr;
   }
   .cover-image {
-    width: 100%;
+    max-width: 100%;
+    
   }
   
   .slot-small {

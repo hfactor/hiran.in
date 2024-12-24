@@ -1,5 +1,5 @@
 ---
-title: Recipe - Simple Moka
+title: Simple Moka
 date: 2024-10-20
 meta-url: 
 category: Coffee
@@ -8,18 +8,17 @@ meta-publisher:
 subtopic: Recipe
 internal-tag: "[[Coffee]]"
 ---
-
 Moka is a great tool to make rich, concentrated brew, especially if you like cloudy texture. It's easy, and by following very basic steps, it guarantee a good coffee. I prefer medium-dark or dark coffee for this method. 
 
-- Coffee : 20gm
+- Coffee : 12.5gm 
 - Grind : Fine
-- Water : 140ml 
+- Water : 140ml (mine is Bialetti Moka, 3-Cups )
 - Brewing Time: 2:30
 - Target Coffee : 100ml+
 
 ## Steps
 
--  Clean and dry moka pot parts
+-  Clean and dry Moka pot parts
 -  **Fill the bottom part with hot water to valve**
 -  Add grounds to basket (level it, don't tamp)
 -  Clean rim, assemble pot
@@ -29,6 +28,4 @@ Moka is a great tool to make rich, concentrated brew, especially if you like clo
 - Remove when stream turns blonde
 - **Cool bottom with wet towel**
 - Serve immediately
-
-## Recommended Recipes
-- [[]]
+- Optional: Add water and dilute. 

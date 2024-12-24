@@ -290,6 +290,7 @@ i {
 
 .cover-image {
   min-width: 160px;
+  max-width: 30%;
   float:left;
   margin: 0 var(--space-two) var(--space-two) 0;
   min-height: 100%;

@@ -1,5 +1,5 @@
 ---
-title: Recipe - Long Glass AeroPress
+title: Long Glass AeroPress
 date: 2023-12-15
 category: Coffee
 subtopic: Recipe

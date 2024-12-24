@@ -12,7 +12,7 @@ recommended:
 revisit: 
 local-title: 
 booktype: 📖
-subtopic: Reading Now
+subtopic: 
 internal-tag: "[[Library]]"
 ---
-
+#-to-do/book 

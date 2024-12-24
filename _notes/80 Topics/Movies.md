@@ -5,5 +5,5 @@ description: An attempt to list movies rated 2.5+ — a good watch, and yes, a c
 permalink: /movies
 cat-value: Movies
 category-order: 4
-group-by: month
+group-by: year
 ---

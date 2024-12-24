@@ -8,7 +8,6 @@ meta-publisher: Maverick & Farmers
 subtopic: Tasting Notes
 internal-tag: "[[Coffee]]"
 ---
-
 One of my favourite dark roast. It's single estate, 100% arabica and has a mild smoky flavour. 
 
 ## Recommended Recipes 

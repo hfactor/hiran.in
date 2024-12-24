@@ -13,7 +13,6 @@ revisit: yes
 local-title:
 internal-tag: "[[Library]]"
 ---
-
 I grew up watching Mani Ratnam's films, with *Kannathil Muthamittaal* being my first serious movie experience and the first non-masala Tamil film I saw in theaters. It opened the door to classics like *Thalapathi*, *Iruvar*, and made me realize the same director was behind *Alaipayuthey* and *Nayakan*.
 
 The book is a series of in-depth conversations presented in an interview format, but beautifully categorized by each movie. Every general question is tied to a specific film, with Mani Ratnam using that film as an example to answer, drawing you deeper into both the conversation and the movies themselves.
