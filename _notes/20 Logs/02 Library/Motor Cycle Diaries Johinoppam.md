@@ -1,6 +1,6 @@
 ---
 title: Motor Cycle Diaries Johinoppam
-date: 2024-05-13
+date: 2024-10-10
 meta-url: https://www.mbibooks.com/product/motorcycle-diaries-johninoppam/
 cover: https://www.mbibooks.com/mbibooks_details/uploads/2021/10/MOTORCYCLE-DIARIES-JOHNINOPPAM1.jpg
 category: Library

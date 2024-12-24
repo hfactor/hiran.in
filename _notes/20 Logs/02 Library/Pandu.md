@@ -10,7 +10,7 @@ meta-people: Studio Niyet
 meta-publisher: Studio Niyet / Comix Canal
 recommended: no
 revisit: no
-local-title: 
+local-title: പണ്ട്
 internal-tag: "[[Library]]"
 ---
 പന്നിമലത്ത് ([[Pannimalath]]) വായിച്ചത് കൊണ്ട് മാത്രം വാങ്ങിയ പുസ്തകമാണ് പണ്ട്. കേരളത്തിലെ നവാഗതരായ പുതിയ എഴുത്തുകാരും, ആർട്ടിസ്റ്റും ചേർന്നിറക്കിയ അഞ്ച് ഗ്രാഫിക്ക് നോവലുകളുടെ സമാഹാരമാണ്. അഞ്ചും.

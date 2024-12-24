@@ -5,5 +5,5 @@ description: My curated collection of unread books that I am aware about/owns. A
 permalink: /antilibrary
 cat-value: AntiLibrary
 category-order: 3
-group-by: month
+group-by: year
 ---
