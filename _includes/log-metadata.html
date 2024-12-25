@@ -6,11 +6,7 @@
         {% unless forloop.first %}
             {% assign front_matter_values = front_matter_values | append: " &#x2022; " %}
         {% endunless %}
-        {% if field == "meta-publisher" and page.meta-url %}
-            {% assign front_matter_values = front_matter_values | append: "<a href='" | append: page.meta-url | append: "'>" | append: page[field] | append: "</a>" %}
-        {% else %}
-            {% assign front_matter_values = front_matter_values | append: page[field] %}
-        {% endif %}
+        {% assign front_matter_values = front_matter_values | append: page[field] %}
     {% endif %}
 {% endfor %}
 
@@ -32,10 +28,13 @@
 
 <div class="slot-small">
     {% if page.cover %}
-    <div class="cover-image">
-        <img src="{{ page.cover }}" alt="Cover Image">  
-    </div>
-{% endif %}
+        <div class="cover-wrapper">
+            <div class="cover-image">
+                <img src="{{ page.cover }}" alt="Cover Image"> 
+            </div>
+            <a href="{{ page.meta-url }}" class="btn">Check it Out</a> 
+        </div>
+    {% endif %}
     <div class="sub-text">
         {%- include content.html -%}
     </div>

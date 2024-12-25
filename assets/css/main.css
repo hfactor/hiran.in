@@ -119,6 +119,7 @@ text-decoration: none;
 font-weight: var(--weight-regular);
 font-size: var(--font-small);
 border: 0;
+text-align: center;
 }
 
 .btn:hover {

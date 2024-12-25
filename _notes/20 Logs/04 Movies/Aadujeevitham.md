@@ -1,13 +1,13 @@
 ---
 title: Aadujeevitham
 date: 2024-03-31
-meta-url: 
+meta-url: https://www.netflix.com/in/title/81917391
 cover: https://upload.wikimedia.org/wikipedia/en/f/fb/The_Goat_Life_poster.jpg
 category: Movies
 meta-lang: Malayalam
 meta-year: 2024
 meta-people: Blessy
-meta-publisher: 
+meta-publisher: Netflix
 recommended: no
 revisit: no
 local-title: ആടുജീവിതം

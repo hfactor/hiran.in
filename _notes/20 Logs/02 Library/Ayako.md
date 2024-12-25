@@ -10,7 +10,7 @@ meta-people: Osamu Tezuka
 meta-publisher: Vertical Inc.
 recommended: yes
 revisit: no
-local-title:
+local-title: 
 internal-tag: "[[Library]]"
 ---
 
