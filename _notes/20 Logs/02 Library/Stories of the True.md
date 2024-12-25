@@ -1,6 +1,6 @@
 ---
 title: Stories of the True
-date: 2024-09-11
+date: 2023-09-11
 meta-url: https://amzn.to/4gsHKdv
 cover: https://m.media-amazon.com/images/I/81Tj0F+UozL._SY385_.jpg
 category: Library
