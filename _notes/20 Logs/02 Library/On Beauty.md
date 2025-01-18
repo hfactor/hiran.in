@@ -1,5 +1,5 @@
 ---
-title: On Beauty - The Cinema Of Sanjay Leela Bhansali
+title: On Beauty
 date: 2024-12-20
 meta-url: https://amzn.to/4gF1PgC
 cover: https://m.media-amazon.com/images/I/71Pu-eEGrCL._SY342_.jpg
