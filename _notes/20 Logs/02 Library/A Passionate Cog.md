@@ -1,7 +1,7 @@
 ---
 title: A Passionate Cog
 date: 2024-12-22
-meta-url: https://amzn.to/3ZOm04Q
+meta-url: https://comixcanal.com/products/a-passionate-cog-adventures-within-the-machine
 cover: https://m.media-amazon.com/images/I/71HKI4jmr3L._SY385_.jpg
 category: Library
 meta-lang: English

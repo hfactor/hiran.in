@@ -1,7 +1,7 @@
 ---
-layout: Post
-permalink: /notes
-title: Working Notes
+layout: Static
+title: Notes
+permalink: /notes/
+description: All notes
 ---
-
-Explore my Digital Garden of evolving notes on diverse topics, waiting to bloom over time.
+{%- include feed.html -%}

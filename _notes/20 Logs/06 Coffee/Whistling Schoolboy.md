@@ -2,7 +2,7 @@
 title: Whistling Schoolboy
 date: 2024-10-26
 meta-url: https://store.blackbazacoffee.com/products/filter-coffee
-category: Tasting Notes
+category: Coffee
 meta-lang: 
 meta-publisher: Black Baza
 subtopic: Coffee Roasters

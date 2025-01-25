@@ -1,0 +1,326 @@
+{% assign sorted_notes = site.notes | sort: 'date' | reverse %}
+{% assign categories = site.notes | map: "category" | uniq | sort %}
+
+<div class="slot-small">
+    <div class="title-group">
+        <h2> <span><a href="{{ site.baseurl }}/">⌘</a>/</span>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+    </div>
+</div>
+
+<div class="slot-small">
+    <div class="everything-controls">
+        <div class="search-wrapper">
+            <input type="text" id="search-input" class="search-input" placeholder="Search..." aria-label="Search notes">
+        </div>
+        
+        <div class="filters">
+            <div class="category-filter">
+                <button class="category-btn active" data-category="all">All</button>
+                {% for category in categories %}
+                    {% if category != "Notes" %}
+                        <button class="category-btn" data-category="{{ category }}">{{ category }}</button>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            
+            <div class="sort-control">
+                <button class="sort-btn" aria-label="Sort options">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg>
+                </button>
+                <div class="sort-dropdown">
+                    <button data-sort="date-desc" class="active">Newest First</button>
+                    <button data-sort="date-asc">Oldest First</button>
+                    <button data-sort="english">Only English</button>
+                    <button data-sort="malayalam">Only Malayalam</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <ul class="everything-list">
+    {% for note in sorted_notes %}
+        {% if note.category != "Notes" %}
+            {% capture note_content %}{{ note.content | replace: '---', '' | strip_newlines | strip_html | strip | replace: ' ', '' }}{% endcapture %}
+            {% capture meta_url %}{{ note.meta-url | strip_newlines | strip_html | strip }}{% endcapture %}
+            
+            <li data-date="{{ note.date }}" data-has-local="{% if note.local-title %}1{% else %}0{% endif %}">
+                <div class="note-title">
+                    {% if note_content != "" %}
+                        <a href="{{ site.baseurl }}{{ note.url }}">
+                            {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}
+                            {% if note.recommended == true %}<span class="note-indicator">✦</span>{% endif %}
+                            {% if note.revisit == true %}<span class="note-indicator">❷</span>{% endif %}
+                        </a>
+                    {% elsif meta_url != "" %}
+                        <a href="{{ meta_url }}">
+                            {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}
+                            {% if note.recommended == true %}<span class="note-indicator">✦</span>{% endif %}
+                            {% if note.revisit == true %}<span class="note-indicator">❷</span>{% endif %}
+                        </a>
+                    {% else %}
+                        {% if note.local-title %}{{ note.local-title }}{% else %}{{ note.title }}{% endif %}
+                        {% if note.recommended == true %}<span class="note-indicator">✦</span>{% endif %}
+                        {% if note.revisit == true %}<span class="note-indicator">❷</span>{% endif %}
+                    {% endif %}
+                </div>
+                <div class="note-category">{{ note.category }}</div>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+<style>
+.everything-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.search-wrapper {
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: var(--font-small);
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.category-btn {
+    padding: 0.4rem 0.8rem;
+    border-radius: 2rem;
+    font-size: var(--font-small);
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.category-btn:hover {
+    background: #f5f5f5;
+    border-color: #d0d0d0;
+}
+
+.category-btn.active {
+    background: #f5f5f5;
+    border-color: #d0d0d0;
+    color: #2a2927;
+    font-weight: 500;
+}
+
+.sort-control {
+    position: relative;
+}
+
+.sort-btn {
+    padding: 0.4rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 2rem;
+    background: white;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sort-btn:hover {
+    background: #f5f5f5;
+}
+
+.sort-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 0.5rem;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: none;
+    min-width: 140px;
+    z-index: 10;
+}
+
+.sort-dropdown.active {
+    display: block;
+}
+
+.sort-dropdown button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    color: #666;
+    cursor: pointer;
+    font-size: var(--font-small);
+}
+
+.sort-dropdown button:hover {
+    background: #f5f5f5;
+}
+
+.sort-dropdown button.active {
+    color: #2a2927;
+    font-weight: 500;
+}
+
+.everything-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.note-title a {
+    text-decoration: none;
+}
+
+.note-title a[href^="http://"]:after,
+.note-title a[href^="https://"]:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url(data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19L19 5M5 5h14v14"/></svg>);
+    background-size: contain;
+    margin-left: 4px;
+}
+
+.note-category {
+    font-size: var(--font-small);
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .sort-control {
+        align-self: flex-end;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    const sortBtn = document.querySelector('.sort-btn');
+    const sortDropdown = document.querySelector('.sort-dropdown');
+    const sortOptions = document.querySelectorAll('.sort-dropdown button');
+    const noteList = document.querySelector('.everything-list');
+    let activeCategory = 'all';
+
+    function updateVisibility() {
+        document.querySelectorAll('.everything-list li').forEach(li => {
+            const categoryEl = li.querySelector('.note-category');
+            const category = categoryEl ? categoryEl.textContent : '';
+            
+            if (activeCategory === 'all' || category === activeCategory) {
+                li.style.display = '';
+            } else {
+                li.style.display = 'none';
+            }
+        });
+    }
+
+    function sortItems(value) {
+        const items = Array.from(noteList.children);
+        
+        switch(value) {
+            case 'date-desc':
+                items.sort((a, b) => new Date(b.dataset.date) - new Date(a.dataset.date));
+                break;
+            case 'date-asc':
+                items.sort((a, b) => new Date(a.dataset.date) - new Date(b.dataset.date));
+                break;
+            case 'english':
+                items.sort((a, b) => {
+                    const hasLocalDiff = a.dataset.hasLocal - b.dataset.hasLocal;
+                    if (hasLocalDiff === 0) {
+                        return new Date(b.dataset.date) - new Date(a.dataset.date);
+                    }
+                    return hasLocalDiff;
+                });
+                break;
+            case 'malayalam':
+                items.sort((a, b) => {
+                    const hasLocalDiff = b.dataset.hasLocal - a.dataset.hasLocal;
+                    if (hasLocalDiff === 0) {
+                        return new Date(b.dataset.date) - new Date(a.dataset.date);
+                    }
+                    return hasLocalDiff;
+                });
+                break;
+        }
+        
+        items.forEach(item => noteList.appendChild(item));
+    }
+
+    categoryButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const category = this.dataset.category;
+            
+            if (activeCategory === category) {
+                const allButton = document.querySelector('.category-btn[data-category="all"]');
+                categoryButtons.forEach(btn => btn.classList.remove('active'));
+                allButton.classList.add('active');
+                activeCategory = 'all';
+            } else {
+                categoryButtons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+                activeCategory = category;
+            }
+            
+            updateVisibility();
+        });
+    });
+
+    sortBtn.addEventListener('click', () => {
+        sortDropdown.classList.toggle('active');
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!sortBtn.contains(e.target) && !sortDropdown.contains(e.target)) {
+            sortDropdown.classList.remove('active');
+        }
+    });
+
+    sortOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            sortOptions.forEach(opt => opt.classList.remove('active'));
+            option.classList.add('active');
+            sortItems(option.dataset.sort);
+            sortDropdown.classList.remove('active');
+        });
+    });
+
+    // Initial sort
+    sortItems('date-desc');
+});
+</script>

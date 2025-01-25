@@ -5,19 +5,13 @@
 <div class="slot-small">
         <div class="title-group">
           <h2>
-            {{ page.title }}
+            <span><a href="{{ site.baseurl }}/">⌘</a>/</span>{{ page.title }}
         </h2>
+        {% if page.description %}<p>{{ page.description }}</p>{% endif %}
       </div>
 </div>
 <div class="slot-small">
     {%- include content.html -%}
-    {% if page.date %}
-    <div style=" font-size: 0.8rem;
-    font-style: italic;
-    color: var(--color-title-sub);">
-    Based on <a href="https://nownownow.com/about">Derek Sivers's Idea.</a> Last updated on {{ page.date | date: "%B, %Y" }}
-    </div>
-    {% endif %}
 {%- endif -%}
 </div>
 
